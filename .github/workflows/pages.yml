@@ -1,0 +1,44 @@
+name: Deploy Tablekeep to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Prepare static site and resolve manifest URLs
+        shell: bash
+        run: |
+          mkdir -p _site
+          cp index.html manifest.json icon.svg .nojekyll _site/
+          cp -R css js data _site/
+          OWNER="${GITHUB_REPOSITORY%%/*}"
+          REPO="${GITHUB_REPOSITORY#*/}"
+          BASE="https://${OWNER}.github.io/${REPO}"
+          sed "s#https://YOUR-USERNAME.github.io/owlbear-dm-toolkit#${BASE}#g" manifest.json > _site/manifest.json
+      - name: Upload static site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
