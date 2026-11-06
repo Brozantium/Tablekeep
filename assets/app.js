@@ -53,19 +53,59 @@ function allRecords(edition=activeEdition){ return CATEGORIES.filter(([key])=>ke
 function findRecord(category,id,edition=activeEdition){ return records(edition,category).find(x=>idOf(x)===String(id)||nameOf(x)===String(id)); }
 function subclassesForCurrentClass(){ const cls=findRecord('classes',builder.classId); const subs=Array.isArray(cls?.subclasses)?cls.subclasses:[]; return subs.map((x,i)=>typeof x==='string'?{id:`${builder.classId}-sub-${i}`,name:x,source:cls?.source||'',description:''}:{...x,id:x.id??`${builder.classId}-sub-${i}`}); }
 function getCountSummary(edition=activeEdition){ return CATEGORIES.filter(([k])=>k!=='subclasses'&&k!=='monsters').reduce((a,[k])=>a+(records(edition,k).length),0); }
-async function fetchJSON(path){ const r=await fetch(path,{cache:'no-cache'}); if(!r.ok) throw new Error(`${r.status} ${path}`); return r.json(); }
+async function fetchJSON(path){
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 30000);
+  try {
+    const r = await fetch(path, { cache: 'no-cache', signal: controller.signal });
+    if (!r.ok) throw new Error(`${r.status} ${path}`);
+    return await r.json();
+  } catch (error) {
+    if (error?.name === 'AbortError') throw new Error(`Timed out while loading ${path} (30 seconds)`);
+    throw error;
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+const catalogLoadErrors = [];
 async function loadDatabase(){
   const jobs=[];
+  catalogLoadErrors.length = 0;
   for(const edition of EDITIONS){
     db[edition]={};
     for(const file of DB_FILES){
       if(file==='masteries'&&edition==='2014') continue;
-      jobs.push((async()=>{ try { db[edition][file]=await fetchJSON(`./data/${edition}/${file}.json`); if(!Array.isArray(db[edition][file])) db[edition][file]=[]; }
-        catch(e){ db[edition][file]=[]; console.warn('Could not load',edition,file,e); } })());
+      jobs.push((async()=>{
+        const path = `./data/${edition}/${file}.json`;
+        try {
+          const payload = await fetchJSON(path);
+          if (!Array.isArray(payload)) throw new Error('Expected a JSON array at the file root');
+          db[edition][file] = payload;
+        } catch(error) {
+          db[edition][file] = [];
+          catalogLoadErrors.push(`${edition}/${file}.json: ${error.message}`);
+          console.warn('Could not load content file:', path, error);
+        }
+      })());
     }
   }
-  jobs.push((async()=>{try{const p=await fetchJSON('./data/catalogs/monsters.json');db['2014'].monsters=Array.isArray(p.items)?p.items:[];db['2024'].monsters=db['2014'].monsters;}catch{db['2014'].monsters=[];db['2024'].monsters=[];}})());
-  await Promise.all(jobs); catalogReady=true; updateBadges();
+  jobs.push((async()=>{
+    const path = './data/catalogs/monsters.json';
+    try {
+      const payload = await fetchJSON(path);
+      if (!Array.isArray(payload.items)) throw new Error('Expected an items array in the monster index');
+      db['2014'].monsters = payload.items;
+      db['2024'].monsters = payload.items;
+    } catch(error) {
+      db['2014'].monsters = [];
+      db['2024'].monsters = [];
+      catalogLoadErrors.push(`catalogs/monsters.json: ${error.message}`);
+      console.warn('Could not load monster index:', path, error);
+    }
+  })());
+  await Promise.all(jobs);
+  catalogReady = true;
+  updateBadges();
 }
 function updateBadges(){ $('#characterCount').textContent=state.characters.length; $('#homebrewCount').textContent=state.homebrew.length; }
 function pageTitle(key){ return ({home:'Home',characters:'My characters',builder:'Character builder',sheet:'Character sheet',homebrew:'Homebrew studio',library:'Content library',table:'DM toolkit',dice:'Dice roller',settings:'Settings & data'})[key]||'Home'; }
@@ -167,7 +207,22 @@ function handleClick(e){
  if(e.target.closest('[data-action="roll-dice"]')||e.target.closest('[data-quick-die]')){const expr=e.target.closest('[data-quick-die]')?`1d${e.target.closest('[data-quick-die]').dataset.quickDie}`:$('#diceExpression').value;const result=rollDice(expr);if(!result){toast('Use a dice expression such as 2d20+5.','warn');return;}state.diceHistory.unshift(result);saveState();$('#diceResult').textContent=result.total;$('#diceLastRoll').textContent=`${result.expression}: ${result.detail} = ${result.total}`;$('#diceHistory').innerHTML=renderDiceHistory();return;}
  if(e.target.closest('[data-action="clear-rolls"]')){state.diceHistory=[];saveState();$('#diceHistory').innerHTML=renderDiceHistory();return;}
 }
-function bind(){document.addEventListener('click',handleClick);$('#globalEdition').value=activeEdition;$('#globalEdition').addEventListener('change',e=>setEdition(e.target.value));$('#menuToggle').addEventListener('click',()=>{$('#sidebar').classList.add('open');$('#mobileScrim').classList.add('show');});$('#mobileScrim').addEventListener('click',closeSidebar);$('#pageRoot').addEventListener('input',e=>{if(e.target.id==='librarySearch'){libraryQuery=e.target.value;libraryPage=1;renderLibraryList();}if(e.target.matches('[data-ability]'))builder.abilities[e.target.dataset.ability]=Number(e.target.value);if(e.target.matches('[data-builder-search]')){builder.search[e.target.dataset.builderSearch]=e.target.value;renderBuilderStep();const search=$(`[data-builder-search="${e.target.dataset.builderSearch}"]`);if(search){search.focus();search.setSelectionRange(search.value.length,search.value.length);}}if(e.target.id==='builderName')builder.name=e.target.value;if(e.target.id==='builderLevel')builder.level=Number(e.target.value);if(e.target.id==='builderNotes')builder.notes=e.target.value;});$('#pageRoot').addEventListener('change',e=>{if(e.target.id==='libraryCategory'){libraryCategory=e.target.value;libraryPage=1;renderLibraryList();}if(e.target.matches('[data-skill]')){const v=e.target.dataset.skill;builder.skills=e.target.checked?[...new Set([...builder.skills,v])]:builder.skills.filter(x=>x!==v);e.target.closest('.skill-check').classList.toggle('checked',e.target.checked);}});$('#formDialog').addEventListener('submit',e=>{if(e.target.id==='homebrewForm'){e.preventDefault();addHomebrew(e.target);}});$('#pageRoot').addEventListener('change',async e=>{if(e.target.id==='importCharacterFile'){const f=e.target.files?.[0];if(!f)return;try{const raw=JSON.parse(await f.text());const input=Array.isArray(raw)?raw:(raw.characters||raw.character?[...(raw.characters||[raw.character])]:[raw]);const imported=input.filter(x=>x&&typeof x==='object'&&(x.name||x.characterName)).map(x=>({...x,id:x.id||`import-${Date.now()}-${Math.random().toString(36).slice(2,7)}`,name:x.name||x.characterName,edition:x.edition||activeEdition,level:Number(x.level||1),abilities:x.abilities||x.stats||{STR:10,DEX:10,CON:10,INT:10,WIS:10,CHA:10}}));if(!imported.length)throw new Error('No character record with a name was found.');state.characters.push(...imported);saveState();toast(`Imported ${imported.length} character${imported.length===1?'':'s'}.`);go('characters');}catch(err){toast(`Character import failed: ${err.message}`,'warn');}e.target.value='';}});$('#importFile').addEventListener('change',async e=>{const f=e.target.files?.[0];if(!f)return;try{const obj=JSON.parse(await f.text());state.characters=obj.characters||state.characters;state.homebrew=obj.homebrew||state.homebrew;state.combatants=obj.combatants||state.combatants;state.diceHistory=obj.diceHistory||state.diceHistory;saveState();toast('Workspace imported.');go('home');}catch(err){toast(`Import failed: ${err.message}`,'warn');}e.target.value='';});$('#globalSearch').addEventListener('keydown',e=>{if(e.key==='Enter'){libraryQuery=e.target.value;libraryCategory='all';go('library');}});document.addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();$('#globalSearch').focus();}});}
+function bind(){document.addEventListener('click',handleClick);$('#globalEdition').value=activeEdition;$('#globalEdition').addEventListener('change',e=>setEdition(e.target.value));$('#menuToggle').addEventListener('click',()=>{$('#sidebar').classList.add('open');$('#mobileScrim').classList.add('show');});$('#mobileScrim').addEventListener('click',closeSidebar);$('#pageRoot').addEventListener('input',e=>{if(e.target.id==='librarySearch'){libraryQuery=e.target.value;libraryPage=1;renderLibraryList();}if(e.target.matches('[data-ability]'))builder.abilities[e.target.dataset.ability]=Number(e.target.value);if(e.target.matches('[data-builder-search]')){builder.search[e.target.dataset.builderSearch]=e.target.value;renderBuilderStep();const search=$(`[data-builder-search="${e.target.dataset.builderSearch}"]`);if(search){search.focus();search.setSelectionRange(search.value.length,search.value.length);}}if(e.target.id==='builderName')builder.name=e.target.value;if(e.target.id==='builderLevel')builder.level=Number(e.target.value);if(e.target.id==='builderNotes')builder.notes=e.target.value;});$('#pageRoot').addEventListener('change',e=>{if(e.target.id==='libraryCategory'){libraryCategory=e.target.value;libraryPage=1;renderLibraryList();}if(e.target.matches('[data-skill]')){const v=e.target.dataset.skill;builder.skills=e.target.checked?[...new Set([...builder.skills,v])]:builder.skills.filter(x=>x!==v);e.target.closest('.skill-check').classList.toggle('checked',e.target.checked);}});$('#formDialog').addEventListener('submit',e=>{if(e.target.id==='homebrewForm'){e.preventDefault();addHomebrew(e.target);}});$('#pageRoot').addEventListener('change',async e=>{if(e.target.id==='importCharacterFile'){const f=e.target.files?.[0];if(!f)return;try{const raw=JSON.parse(await f.text());const input=Array.isArray(raw)?raw:(raw.characters||raw.character?[...(raw.characters||[raw.character])]:[raw]);const imported=input.filter(x=>x&&typeof x==='object'&&(x.name||x.characterName)).map(x=>({...x,id:x.id||`import-${Date.now()}-${Math.random().toString(36).slice(2,7)}`,name:x.name||x.characterName,edition:x.edition||activeEdition,level:Number(x.level||1),abilities:x.abilities||x.stats||{STR:10,DEX:10,CON:10,INT:10,WIS:10,CHA:10}}));if(!imported.length)throw new Error('No character record with a name was found.');state.characters.push(...imported);saveState();toast(`Imported ${imported.length} character${imported.length===1?'':'s'}.`);go('characters');}catch(err){toast(`Character import failed: ${err.message}`,'warn');}e.target.value='';}});document.addEventListener('change',async e=>{if(e.target?.id!=='importFile')return;const f=e.target.files?.[0];if(!f)return;try{const obj=JSON.parse(await f.text());state.characters=obj.characters||state.characters;state.homebrew=obj.homebrew||state.homebrew;state.combatants=obj.combatants||state.combatants;state.diceHistory=obj.diceHistory||state.diceHistory;saveState();toast('Workspace imported.');go('home');}catch(err){toast(`Import failed: ${err.message}`,'warn');}e.target.value='';});$('#globalSearch').addEventListener('keydown',e=>{if(e.key==='Enter'){libraryQuery=e.target.value;libraryCategory='all';go('library');}});document.addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();$('#globalSearch').focus();}});}
 async function connectOwlbear(){const requested=new URLSearchParams(location.search).get('mode')==='owlbear'||window.parent!==window;if(!requested)return;$('#connectionText').textContent='Connecting…';$('#workspaceLabel').textContent='Owlbear room';try{const sdk=await import('https://esm.sh/@owlbear-rodeo/sdk@1');owlBear=sdk.default||sdk.OBR||sdk;if(!owlBear.isAvailable){$('#connectionText').textContent='Standalone';return;}if(!owlBear.isReady)await new Promise(resolve=>{let off;off=owlBear.onReady(()=>{off?.();resolve();});});$('#connectionText').textContent='Owlbear connected';const status=$('#sdkStatus');if(status)status.textContent='SDK ready';}catch(e){console.info('Owlbear SDK unavailable; using local workspace.',e);$('#connectionText').textContent='Standalone fallback';}}
-async function init(){bind();try{await loadDatabase();$('#pageRoot').innerHTML=renderHome();updateBadges();await connectOwlbear();}catch(e){$('#pageRoot').innerHTML=`<div class="empty-large"><h2>Could not load the content files.</h2><p>${esc(e.message)}. Run this app from a local web server or GitHub Pages; opening index.html directly as file:// may block JSON fetches.</p></div>`;}}
+async function init(){
+  try {
+    bind();
+    await loadDatabase();
+    $('#pageRoot').innerHTML = renderHome();
+    updateBadges();
+    if (catalogLoadErrors.length) {
+      console.warn('Tablekeep started with some unavailable content files:', catalogLoadErrors);
+      toast(`${catalogLoadErrors.length} content file(s) could not be loaded. Check the browser console for details.`, 'warn');
+    }
+    await connectOwlbear();
+  } catch(error) {
+    console.error('Tablekeep startup failed:', error);
+    $('#pageRoot').innerHTML = `<div class="empty-large"><h2>Tablekeep could not start.</h2><p>${esc(error.message)}. Check the browser console and verify the app is served from GitHub Pages or a local HTTP server.</p><button class="button button-primary" onclick="location.reload()">Try again</button></div>`;
+  }
+}
 init();
