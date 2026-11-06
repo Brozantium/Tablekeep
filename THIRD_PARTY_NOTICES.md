@@ -1,4 +1,3 @@
-[THIRD_PARTY_NOTICES.md](https://github.com/user-attachments/files/34494232/THIRD_PARTY_NOTICES.md)
 # Third-party notices and data provenance
 
 - **Owlbear Rodeo SDK**: loaded at runtime from `https://esm.sh/@owlbear-rodeo/sdk@1` only when the page is embedded in Owlbear Rodeo. The SDK is maintained by Owlbear Rodeo and is distributed under the MIT License. See https://github.com/owlbear-rodeo/sdk.

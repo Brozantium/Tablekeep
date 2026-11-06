@@ -1,6 +1,6 @@
 {
-  "name": "Tablekeep — Character & Homebrew Studio",
-  "version": "0.3.0",
+  "name": "Tablekeep \u2014 Character & Homebrew Studio",
+  "version": "0.5.0",
   "manifest_version": 1,
   "description": "Player-first D&D character builder, homebrew studio, content library, and tabletop tools.",
   "author": "Tablekeep Community Build",
@@ -10,7 +10,7 @@
     "title": "Tablekeep",
     "icon": "https://YOUR-USERNAME.github.io/YOUR-REPO/icon.svg",
     "popover": "https://YOUR-USERNAME.github.io/YOUR-REPO/index.html?mode=owlbear",
-    "width": 900,
-    "height": 760
+    "width": 400,
+    "height": 625
   }
 }

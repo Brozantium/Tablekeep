@@ -1,4 +1,4 @@
-# Tablekeep v0.4.0 — P5e-inspired rebuild
+# Tablekeep v0.5.0 — P5e-inspired rebuild
 
 This rebuild uses the supplied P5e.7z archive as a reference for the guided character-creation flow and uses the supplied 2014/2024 JSON catalogues already bundled with Tablekeep. It is an original Tablekeep implementation; it does not redistribute the P5e compiled application bundle. See `P5E-ARCHIVE-ANALYSIS.md` for the archive inspection.
 
