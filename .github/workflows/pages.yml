@@ -34,21 +34,20 @@ jobs:
           set -euo pipefail
           mkdir -p _site
           cp index.html manifest.json icon.svg _site/
-          cp -R css js data _site/
+          cp -R assets data _site/
           touch _site/.nojekyll
 
           OWNER="${GITHUB_REPOSITORY%%/*}"
           REPO="${GITHUB_REPOSITORY#*/}"
           BASE="https://${OWNER}.github.io/${REPO}"
-
-          sed "s#https://YOUR-USERNAME.github.io/owlbear-dm-toolkit#${BASE}#g" manifest.json > _site/manifest.json
+          sed "s#https://YOUR-USERNAME.github.io/YOUR-REPO#${BASE}#g" manifest.json > _site/manifest.json
 
           test -s _site/index.html
           test -s _site/manifest.json
-          test -s _site/icon.svg
-          test -d _site/css
-          test -d _site/js
-          test -d _site/data
+          test -s _site/assets/app.js
+          test -s _site/assets/app.css
+          test -s _site/data/2014/classes.json
+          test -s _site/data/2024/classes.json
 
       - name: Upload static site
         uses: actions/upload-pages-artifact@v5
