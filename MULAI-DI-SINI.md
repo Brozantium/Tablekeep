@@ -1,4 +1,4 @@
-# MULAI DI SINI — TABLEKEEP 0.3.0
+# MULAI DI SINI — TABLEKEEP 0.4.0
 
 ## Menjalankan di Windows
 1. Extract ZIP.
@@ -10,6 +10,9 @@ Jangan membuka `index.html` dengan double-click biasa (`file://`) karena browser
 
 ## Upload ke GitHub
 Upload seluruh isi folder ke root repository, termasuk `.github/workflows/pages.yml`, folder `assets/`, dan folder `data/`. Di GitHub buka **Settings → Pages → Source: GitHub Actions**. Push ke branch `main` untuk deploy.
+
+## Apa yang berubah di v0.4.0?
+Lihat `REBUILD-NOTES-v0.4.0.md` untuk perubahan Character Builder dan `P5E-ARCHIVE-ANALYSIS.md` untuk hasil pemeriksaan arsip P5e. Jalankan dan uji lokal dulu sebelum mengganti versi GitHub Pages yang sedang aktif.
 
 ## Di mana mengubah tampilan?
 - `index.html`: kerangka halaman dan navigasi.
