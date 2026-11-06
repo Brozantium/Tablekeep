@@ -1,0 +1,5 @@
+# Third-party notices and data provenance
+
+- **Owlbear Rodeo SDK**: loaded at runtime from `https://esm.sh/@owlbear-rodeo/sdk@1` only when the page is embedded in Owlbear Rodeo. The SDK is maintained by Owlbear Rodeo and is distributed under the MIT License. See https://github.com/owlbear-rodeo/sdk.
+- **Catalogue indexes**: `data/monsters.json`, `data/spells.json`, and `data/magic_items.json` contain names and source URLs extracted from a user-provided Scrapling crawl of public play5e catalogue pages. They are an index, not a copy of the linked page content. Their presence does not imply permission to redistribute any linked content, artwork, or non-SRD materials. Review the source site's terms and applicable content licenses before publishing them.
+- **D&D rules content**: this repository currently does not bundle complete D&D rule text, monster stat blocks, spell descriptions, or magic item rules. If those are added later, use content that is licensed for your intended distribution and provide the required attribution.

@@ -1,0 +1,13 @@
+{
+  "name": "Tablekeep — DM Toolkit (Local)",
+  "version": "0.2.0",
+  "manifest_version": 1,
+  "description": "Local development version of Tablekeep DM Toolkit.",
+  "action": {
+    "title": "Tablekeep Local",
+    "icon": "http://localhost:8000/icon.svg",
+    "popover": "http://localhost:8000/index.html?mode=owlbear",
+    "width": 760,
+    "height": 760
+  }
+}

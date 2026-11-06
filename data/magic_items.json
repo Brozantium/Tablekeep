@@ -1,0 +1,1303 @@
+{
+  "source_page": "https://play5e.net/magic-items",
+  "item_list_name": "D&D 5e magic items (SRD 5.1 and 5.2)",
+  "declared_count": 259,
+  "extracted_count": 259,
+  "items": [
+    {
+      "position": 1,
+      "name": "Bead of Nourishment",
+      "url": "https://play5e.net/magic-items/bead-of-nourishment"
+    },
+    {
+      "position": 2,
+      "name": "Potion of Climbing",
+      "url": "https://play5e.net/magic-items/potion-of-climbing"
+    },
+    {
+      "position": 3,
+      "name": "Adamantine Armor",
+      "url": "https://play5e.net/magic-items/adamantine-armor"
+    },
+    {
+      "position": 4,
+      "name": "Amulet of Proof against Detection and Location",
+      "url": "https://play5e.net/magic-items/amulet-of-proof-against-detection-and-location"
+    },
+    {
+      "position": 5,
+      "name": "Bag of Holding",
+      "url": "https://play5e.net/magic-items/bag-of-holding"
+    },
+    {
+      "position": 6,
+      "name": "Bag of Tricks",
+      "url": "https://play5e.net/magic-items/bag-of-tricks"
+    },
+    {
+      "position": 7,
+      "name": "Boots of Elvenkind",
+      "url": "https://play5e.net/magic-items/boots-of-elvenkind"
+    },
+    {
+      "position": 8,
+      "name": "Boots of Striding and Springing",
+      "url": "https://play5e.net/magic-items/boots-of-striding-and-springing"
+    },
+    {
+      "position": 9,
+      "name": "Boots of the Winterlands",
+      "url": "https://play5e.net/magic-items/boots-of-the-winterlands"
+    },
+    {
+      "position": 10,
+      "name": "Bracers of Archery",
+      "url": "https://play5e.net/magic-items/bracers-of-archery"
+    },
+    {
+      "position": 11,
+      "name": "Brooch of Shielding",
+      "url": "https://play5e.net/magic-items/brooch-of-shielding"
+    },
+    {
+      "position": 12,
+      "name": "Broom of Flying",
+      "url": "https://play5e.net/magic-items/broom-of-flying"
+    },
+    {
+      "position": 13,
+      "name": "Circlet of Blasting",
+      "url": "https://play5e.net/magic-items/circlet-of-blasting"
+    },
+    {
+      "position": 14,
+      "name": "Cloak of Elvenkind",
+      "url": "https://play5e.net/magic-items/cloak-of-elvenkind"
+    },
+    {
+      "position": 15,
+      "name": "Cloak of Protection",
+      "url": "https://play5e.net/magic-items/cloak-of-protection"
+    },
+    {
+      "position": 16,
+      "name": "Cloak of the Manta Ray",
+      "url": "https://play5e.net/magic-items/cloak-of-the-manta-ray"
+    },
+    {
+      "position": 17,
+      "name": "Decanter of Endless Water",
+      "url": "https://play5e.net/magic-items/decanter-of-endless-water"
+    },
+    {
+      "position": 18,
+      "name": "Deck of Illusions",
+      "url": "https://play5e.net/magic-items/deck-of-illusions"
+    },
+    {
+      "position": 19,
+      "name": "Dust of Disappearance",
+      "url": "https://play5e.net/magic-items/dust-of-disappearance"
+    },
+    {
+      "position": 20,
+      "name": "Dust of Dryness",
+      "url": "https://play5e.net/magic-items/dust-of-dryness"
+    },
+    {
+      "position": 21,
+      "name": "Dust of Sneezing and Choking",
+      "url": "https://play5e.net/magic-items/dust-of-sneezing-and-choking"
+    },
+    {
+      "position": 22,
+      "name": "Efficient Quiver",
+      "url": "https://play5e.net/magic-items/efficient-quiver"
+    },
+    {
+      "position": 23,
+      "name": "Elemental Gem",
+      "url": "https://play5e.net/magic-items/elemental-gem"
+    },
+    {
+      "position": 24,
+      "name": "Eversmoking Bottle",
+      "url": "https://play5e.net/magic-items/eversmoking-bottle"
+    },
+    {
+      "position": 25,
+      "name": "Eyes of Charming",
+      "url": "https://play5e.net/magic-items/eyes-of-charming"
+    },
+    {
+      "position": 26,
+      "name": "Eyes of Minute Seeing",
+      "url": "https://play5e.net/magic-items/eyes-of-minute-seeing"
+    },
+    {
+      "position": 27,
+      "name": "Eyes of the Eagle",
+      "url": "https://play5e.net/magic-items/eyes-of-the-eagle"
+    },
+    {
+      "position": 28,
+      "name": "Gauntlets of Ogre Power",
+      "url": "https://play5e.net/magic-items/gauntlets-of-ogre-power"
+    },
+    {
+      "position": 29,
+      "name": "Gem of Brightness",
+      "url": "https://play5e.net/magic-items/gem-of-brightness"
+    },
+    {
+      "position": 30,
+      "name": "Gloves of Missile Snaring",
+      "url": "https://play5e.net/magic-items/gloves-of-missile-snaring"
+    },
+    {
+      "position": 31,
+      "name": "Gloves of Swimming and Climbing",
+      "url": "https://play5e.net/magic-items/gloves-of-swimming-and-climbing"
+    },
+    {
+      "position": 32,
+      "name": "Gloves of Thievery",
+      "url": "https://play5e.net/magic-items/gloves-of-thievery"
+    },
+    {
+      "position": 33,
+      "name": "Goggles of Night",
+      "url": "https://play5e.net/magic-items/goggles-of-night"
+    },
+    {
+      "position": 34,
+      "name": "Hat of Disguise",
+      "url": "https://play5e.net/magic-items/hat-of-disguise"
+    },
+    {
+      "position": 35,
+      "name": "Headband of Intellect",
+      "url": "https://play5e.net/magic-items/headband-of-intellect"
+    },
+    {
+      "position": 36,
+      "name": "Helm of Comprehending Languages",
+      "url": "https://play5e.net/magic-items/helm-of-comprehending-languages"
+    },
+    {
+      "position": 37,
+      "name": "Helm of Telepathy",
+      "url": "https://play5e.net/magic-items/helm-of-telepathy"
+    },
+    {
+      "position": 38,
+      "name": "Immovable Rod",
+      "url": "https://play5e.net/magic-items/immovable-rod"
+    },
+    {
+      "position": 39,
+      "name": "Javelin of Lightning",
+      "url": "https://play5e.net/magic-items/javelin-of-lightning"
+    },
+    {
+      "position": 40,
+      "name": "Lantern of Revealing",
+      "url": "https://play5e.net/magic-items/lantern-of-revealing"
+    },
+    {
+      "position": 41,
+      "name": "Medallion of Thoughts",
+      "url": "https://play5e.net/magic-items/medallion-of-thoughts"
+    },
+    {
+      "position": 42,
+      "name": "Mithral Armor",
+      "url": "https://play5e.net/magic-items/mithral-armor"
+    },
+    {
+      "position": 43,
+      "name": "Necklace of Adaptation",
+      "url": "https://play5e.net/magic-items/necklace-of-adaptation"
+    },
+    {
+      "position": 44,
+      "name": "Oil of Slipperiness",
+      "url": "https://play5e.net/magic-items/oil-of-slipperiness"
+    },
+    {
+      "position": 45,
+      "name": "Pearl of Power",
+      "url": "https://play5e.net/magic-items/pearl-of-power"
+    },
+    {
+      "position": 46,
+      "name": "Periapt of Health",
+      "url": "https://play5e.net/magic-items/periapt-of-health"
+    },
+    {
+      "position": 47,
+      "name": "Periapt of Wound Closure",
+      "url": "https://play5e.net/magic-items/periapt-of-wound-closure"
+    },
+    {
+      "position": 48,
+      "name": "Philter of Love",
+      "url": "https://play5e.net/magic-items/philter-of-love"
+    },
+    {
+      "position": 49,
+      "name": "Pipes of Haunting",
+      "url": "https://play5e.net/magic-items/pipes-of-haunting"
+    },
+    {
+      "position": 50,
+      "name": "Pipes of the Sewers",
+      "url": "https://play5e.net/magic-items/pipes-of-the-sewers"
+    },
+    {
+      "position": 51,
+      "name": "Potion of Animal Friendship",
+      "url": "https://play5e.net/magic-items/potion-of-animal-friendship"
+    },
+    {
+      "position": 52,
+      "name": "Potion of Growth",
+      "url": "https://play5e.net/magic-items/potion-of-growth"
+    },
+    {
+      "position": 53,
+      "name": "Potion of Poison",
+      "url": "https://play5e.net/magic-items/potion-of-poison"
+    },
+    {
+      "position": 54,
+      "name": "Potion of Resistance",
+      "url": "https://play5e.net/magic-items/potion-of-resistance"
+    },
+    {
+      "position": 55,
+      "name": "Potion of Water Breathing",
+      "url": "https://play5e.net/magic-items/potion-of-water-breathing"
+    },
+    {
+      "position": 56,
+      "name": "Restorative Ointment",
+      "url": "https://play5e.net/magic-items/restorative-ointment"
+    },
+    {
+      "position": 57,
+      "name": "Ring of Jumping",
+      "url": "https://play5e.net/magic-items/ring-of-jumping"
+    },
+    {
+      "position": 58,
+      "name": "Ring of Mind Shielding",
+      "url": "https://play5e.net/magic-items/ring-of-mind-shielding"
+    },
+    {
+      "position": 59,
+      "name": "Ring of Swimming",
+      "url": "https://play5e.net/magic-items/ring-of-swimming"
+    },
+    {
+      "position": 60,
+      "name": "Ring of Warmth",
+      "url": "https://play5e.net/magic-items/ring-of-warmth"
+    },
+    {
+      "position": 61,
+      "name": "Ring of Water Walking",
+      "url": "https://play5e.net/magic-items/ring-of-water-walking"
+    },
+    {
+      "position": 62,
+      "name": "Robe of Useful Items",
+      "url": "https://play5e.net/magic-items/robe-of-useful-items"
+    },
+    {
+      "position": 63,
+      "name": "Rope of Climbing",
+      "url": "https://play5e.net/magic-items/rope-of-climbing"
+    },
+    {
+      "position": 64,
+      "name": "Sending Stones",
+      "url": "https://play5e.net/magic-items/sending-stones"
+    },
+    {
+      "position": 65,
+      "name": "Sentinel Shield",
+      "url": "https://play5e.net/magic-items/sentinel-shield"
+    },
+    {
+      "position": 66,
+      "name": "Slippers of Spider Climbing",
+      "url": "https://play5e.net/magic-items/slippers-of-spider-climbing"
+    },
+    {
+      "position": 67,
+      "name": "Staff of the Python",
+      "url": "https://play5e.net/magic-items/staff-of-the-python"
+    },
+    {
+      "position": 68,
+      "name": "Stone of Good Luck (Luckstone)",
+      "url": "https://play5e.net/magic-items/stone-of-good-luck-luckstone"
+    },
+    {
+      "position": 69,
+      "name": "Trident of Fish Command",
+      "url": "https://play5e.net/magic-items/trident-of-fish-command"
+    },
+    {
+      "position": 70,
+      "name": "Wand of Magic Detection",
+      "url": "https://play5e.net/magic-items/wand-of-magic-detection"
+    },
+    {
+      "position": 71,
+      "name": "Wand of Magic Missiles",
+      "url": "https://play5e.net/magic-items/wand-of-magic-missiles"
+    },
+    {
+      "position": 72,
+      "name": "Wand of Secrets",
+      "url": "https://play5e.net/magic-items/wand-of-secrets"
+    },
+    {
+      "position": 73,
+      "name": "Wand of Web",
+      "url": "https://play5e.net/magic-items/wand-of-web"
+    },
+    {
+      "position": 74,
+      "name": "Weapon of Warning",
+      "url": "https://play5e.net/magic-items/weapon-of-warning"
+    },
+    {
+      "position": 75,
+      "name": "Wind Fan",
+      "url": "https://play5e.net/magic-items/wind-fan"
+    },
+    {
+      "position": 76,
+      "name": "Winged Boots",
+      "url": "https://play5e.net/magic-items/winged-boots"
+    },
+    {
+      "position": 77,
+      "name": "Amulet of Health",
+      "url": "https://play5e.net/magic-items/amulet-of-health"
+    },
+    {
+      "position": 78,
+      "name": "Armor of Resistance",
+      "url": "https://play5e.net/magic-items/armor-of-resistance"
+    },
+    {
+      "position": 79,
+      "name": "Armor of Vulnerability",
+      "url": "https://play5e.net/magic-items/armor-of-vulnerability"
+    },
+    {
+      "position": 80,
+      "name": "Arrow-Catching Shield",
+      "url": "https://play5e.net/magic-items/arrow-catching-shield"
+    },
+    {
+      "position": 81,
+      "name": "Bag of Beans",
+      "url": "https://play5e.net/magic-items/bag-of-beans"
+    },
+    {
+      "position": 82,
+      "name": "Bead of Force",
+      "url": "https://play5e.net/magic-items/bead-of-force"
+    },
+    {
+      "position": 83,
+      "name": "Belt of Dwarvenkind",
+      "url": "https://play5e.net/magic-items/belt-of-dwarvenkind"
+    },
+    {
+      "position": 84,
+      "name": "Berserker Axe",
+      "url": "https://play5e.net/magic-items/berserker-axe"
+    },
+    {
+      "position": 85,
+      "name": "Boots of Levitation",
+      "url": "https://play5e.net/magic-items/boots-of-levitation"
+    },
+    {
+      "position": 86,
+      "name": "Boots of Speed",
+      "url": "https://play5e.net/magic-items/boots-of-speed"
+    },
+    {
+      "position": 87,
+      "name": "Bowl of Commanding Water Elementals",
+      "url": "https://play5e.net/magic-items/bowl-of-commanding-water-elementals"
+    },
+    {
+      "position": 88,
+      "name": "Bracers of Defense",
+      "url": "https://play5e.net/magic-items/bracers-of-defense"
+    },
+    {
+      "position": 89,
+      "name": "Brazier of Commanding Fire Elementals",
+      "url": "https://play5e.net/magic-items/brazier-of-commanding-fire-elementals"
+    },
+    {
+      "position": 90,
+      "name": "Cape of the Mountebank",
+      "url": "https://play5e.net/magic-items/cape-of-the-mountebank"
+    },
+    {
+      "position": 91,
+      "name": "Censer of Controlling Air Elementals",
+      "url": "https://play5e.net/magic-items/censer-of-controlling-air-elementals"
+    },
+    {
+      "position": 92,
+      "name": "Chime of Opening",
+      "url": "https://play5e.net/magic-items/chime-of-opening"
+    },
+    {
+      "position": 93,
+      "name": "Cloak of Displacement",
+      "url": "https://play5e.net/magic-items/cloak-of-displacement"
+    },
+    {
+      "position": 94,
+      "name": "Cloak of the Bat",
+      "url": "https://play5e.net/magic-items/cloak-of-the-bat"
+    },
+    {
+      "position": 95,
+      "name": "Cube of Force",
+      "url": "https://play5e.net/magic-items/cube-of-force"
+    },
+    {
+      "position": 96,
+      "name": "Dagger of Venom",
+      "url": "https://play5e.net/magic-items/dagger-of-venom"
+    },
+    {
+      "position": 97,
+      "name": "Dimensional Shackles",
+      "url": "https://play5e.net/magic-items/dimensional-shackles"
+    },
+    {
+      "position": 98,
+      "name": "Dragon Slayer",
+      "url": "https://play5e.net/magic-items/dragon-slayer"
+    },
+    {
+      "position": 99,
+      "name": "Elixir of Health",
+      "url": "https://play5e.net/magic-items/elixir-of-health"
+    },
+    {
+      "position": 100,
+      "name": "Elven Chain",
+      "url": "https://play5e.net/magic-items/elven-chain"
+    },
+    {
+      "position": 101,
+      "name": "Feather Token",
+      "url": "https://play5e.net/magic-items/feather-token"
+    },
+    {
+      "position": 102,
+      "name": "Flame Tongue",
+      "url": "https://play5e.net/magic-items/flame-tongue"
+    },
+    {
+      "position": 103,
+      "name": "Folding Boat",
+      "url": "https://play5e.net/magic-items/folding-boat"
+    },
+    {
+      "position": 104,
+      "name": "Gem of Seeing",
+      "url": "https://play5e.net/magic-items/gem-of-seeing"
+    },
+    {
+      "position": 105,
+      "name": "Giant Slayer",
+      "url": "https://play5e.net/magic-items/giant-slayer"
+    },
+    {
+      "position": 106,
+      "name": "Glamoured Studded Leather Armor",
+      "url": "https://play5e.net/magic-items/glamoured-studded-leather-armor"
+    },
+    {
+      "position": 107,
+      "name": "Handy Haversack",
+      "url": "https://play5e.net/magic-items/handy-haversack"
+    },
+    {
+      "position": 108,
+      "name": "Helm of Teleportation",
+      "url": "https://play5e.net/magic-items/helm-of-teleportation"
+    },
+    {
+      "position": 109,
+      "name": "Horn of Blasting",
+      "url": "https://play5e.net/magic-items/horn-of-blasting"
+    },
+    {
+      "position": 110,
+      "name": "Horseshoes of Speed",
+      "url": "https://play5e.net/magic-items/horseshoes-of-speed"
+    },
+    {
+      "position": 111,
+      "name": "Instant Fortress",
+      "url": "https://play5e.net/magic-items/instant-fortress"
+    },
+    {
+      "position": 112,
+      "name": "Iron Bands of Binding",
+      "url": "https://play5e.net/magic-items/iron-bands-of-binding"
+    },
+    {
+      "position": 113,
+      "name": "Mace of Disruption",
+      "url": "https://play5e.net/magic-items/mace-of-disruption"
+    },
+    {
+      "position": 114,
+      "name": "Mace of Smiting",
+      "url": "https://play5e.net/magic-items/mace-of-smiting"
+    },
+    {
+      "position": 115,
+      "name": "Mace of Terror",
+      "url": "https://play5e.net/magic-items/mace-of-terror"
+    },
+    {
+      "position": 116,
+      "name": "Mantle of Spell Resistance",
+      "url": "https://play5e.net/magic-items/mantle-of-spell-resistance"
+    },
+    {
+      "position": 117,
+      "name": "Necklace of Fireballs",
+      "url": "https://play5e.net/magic-items/necklace-of-fireballs"
+    },
+    {
+      "position": 118,
+      "name": "Necklace of Prayer Beads",
+      "url": "https://play5e.net/magic-items/necklace-of-prayer-beads"
+    },
+    {
+      "position": 119,
+      "name": "Oil of Etherealness",
+      "url": "https://play5e.net/magic-items/oil-of-etherealness"
+    },
+    {
+      "position": 120,
+      "name": "Periapt of Proof against Poison",
+      "url": "https://play5e.net/magic-items/periapt-of-proof-against-poison"
+    },
+    {
+      "position": 121,
+      "name": "Portable Hole",
+      "url": "https://play5e.net/magic-items/portable-hole"
+    },
+    {
+      "position": 122,
+      "name": "Potion of Clairvoyance",
+      "url": "https://play5e.net/magic-items/potion-of-clairvoyance"
+    },
+    {
+      "position": 123,
+      "name": "Potion of Diminution",
+      "url": "https://play5e.net/magic-items/potion-of-diminution"
+    },
+    {
+      "position": 124,
+      "name": "Potion of Gaseous Form",
+      "url": "https://play5e.net/magic-items/potion-of-gaseous-form"
+    },
+    {
+      "position": 125,
+      "name": "Potion of Heroism",
+      "url": "https://play5e.net/magic-items/potion-of-heroism"
+    },
+    {
+      "position": 126,
+      "name": "Potion of Invulnerability",
+      "url": "https://play5e.net/magic-items/potion-of-invulnerability"
+    },
+    {
+      "position": 127,
+      "name": "Potion of Mind Reading",
+      "url": "https://play5e.net/magic-items/potion-of-mind-reading"
+    },
+    {
+      "position": 128,
+      "name": "Ring of Animal Influence",
+      "url": "https://play5e.net/magic-items/ring-of-animal-influence"
+    },
+    {
+      "position": 129,
+      "name": "Ring of Evasion",
+      "url": "https://play5e.net/magic-items/ring-of-evasion"
+    },
+    {
+      "position": 130,
+      "name": "Ring of Feather Falling",
+      "url": "https://play5e.net/magic-items/ring-of-feather-falling"
+    },
+    {
+      "position": 131,
+      "name": "Ring of Free Action",
+      "url": "https://play5e.net/magic-items/ring-of-free-action"
+    },
+    {
+      "position": 132,
+      "name": "Ring of Protection",
+      "url": "https://play5e.net/magic-items/ring-of-protection"
+    },
+    {
+      "position": 133,
+      "name": "Ring of Resistance",
+      "url": "https://play5e.net/magic-items/ring-of-resistance"
+    },
+    {
+      "position": 134,
+      "name": "Ring of Spell Storing",
+      "url": "https://play5e.net/magic-items/ring-of-spell-storing"
+    },
+    {
+      "position": 135,
+      "name": "Ring of the Ram",
+      "url": "https://play5e.net/magic-items/ring-of-the-ram"
+    },
+    {
+      "position": 136,
+      "name": "Ring of X-ray Vision",
+      "url": "https://play5e.net/magic-items/ring-of-x-ray-vision"
+    },
+    {
+      "position": 137,
+      "name": "Robe of Eyes",
+      "url": "https://play5e.net/magic-items/robe-of-eyes"
+    },
+    {
+      "position": 138,
+      "name": "Rod of Rulership",
+      "url": "https://play5e.net/magic-items/rod-of-rulership"
+    },
+    {
+      "position": 139,
+      "name": "Rope of Entanglement",
+      "url": "https://play5e.net/magic-items/rope-of-entanglement"
+    },
+    {
+      "position": 140,
+      "name": "Shield of Missile Attraction",
+      "url": "https://play5e.net/magic-items/shield-of-missile-attraction"
+    },
+    {
+      "position": 141,
+      "name": "Staff of Charming",
+      "url": "https://play5e.net/magic-items/staff-of-charming"
+    },
+    {
+      "position": 142,
+      "name": "Staff of Healing",
+      "url": "https://play5e.net/magic-items/staff-of-healing"
+    },
+    {
+      "position": 143,
+      "name": "Staff of Swarming Insects",
+      "url": "https://play5e.net/magic-items/staff-of-swarming-insects"
+    },
+    {
+      "position": 144,
+      "name": "Staff of the Woodlands",
+      "url": "https://play5e.net/magic-items/staff-of-the-woodlands"
+    },
+    {
+      "position": 145,
+      "name": "Staff of Withering",
+      "url": "https://play5e.net/magic-items/staff-of-withering"
+    },
+    {
+      "position": 146,
+      "name": "Stone of Controlling Earth Elementals",
+      "url": "https://play5e.net/magic-items/stone-of-controlling-earth-elementals"
+    },
+    {
+      "position": 147,
+      "name": "Sun Blade",
+      "url": "https://play5e.net/magic-items/sun-blade"
+    },
+    {
+      "position": 148,
+      "name": "Sword of Life Stealing",
+      "url": "https://play5e.net/magic-items/sword-of-life-stealing"
+    },
+    {
+      "position": 149,
+      "name": "Sword of Wounding",
+      "url": "https://play5e.net/magic-items/sword-of-wounding"
+    },
+    {
+      "position": 150,
+      "name": "Vicious Weapon",
+      "url": "https://play5e.net/magic-items/vicious-weapon"
+    },
+    {
+      "position": 151,
+      "name": "Wand of Binding",
+      "url": "https://play5e.net/magic-items/wand-of-binding"
+    },
+    {
+      "position": 152,
+      "name": "Wand of Enemy Detection",
+      "url": "https://play5e.net/magic-items/wand-of-enemy-detection"
+    },
+    {
+      "position": 153,
+      "name": "Wand of Fear",
+      "url": "https://play5e.net/magic-items/wand-of-fear"
+    },
+    {
+      "position": 154,
+      "name": "Wand of Fireballs",
+      "url": "https://play5e.net/magic-items/wand-of-fireballs"
+    },
+    {
+      "position": 155,
+      "name": "Wand of Lightning Bolts",
+      "url": "https://play5e.net/magic-items/wand-of-lightning-bolts"
+    },
+    {
+      "position": 156,
+      "name": "Wand of Paralysis",
+      "url": "https://play5e.net/magic-items/wand-of-paralysis"
+    },
+    {
+      "position": 157,
+      "name": "Wand of Wonder",
+      "url": "https://play5e.net/magic-items/wand-of-wonder"
+    },
+    {
+      "position": 158,
+      "name": "Wings of Flying",
+      "url": "https://play5e.net/magic-items/wings-of-flying"
+    },
+    {
+      "position": 159,
+      "name": "Amulet of the Planes",
+      "url": "https://play5e.net/magic-items/amulet-of-the-planes"
+    },
+    {
+      "position": 160,
+      "name": "Animated Shield",
+      "url": "https://play5e.net/magic-items/animated-shield"
+    },
+    {
+      "position": 161,
+      "name": "Arrow of Slaying",
+      "url": "https://play5e.net/magic-items/arrow-of-slaying"
+    },
+    {
+      "position": 162,
+      "name": "Bag of Devouring",
+      "url": "https://play5e.net/magic-items/bag-of-devouring"
+    },
+    {
+      "position": 163,
+      "name": "Candle of Invocation",
+      "url": "https://play5e.net/magic-items/candle-of-invocation"
+    },
+    {
+      "position": 164,
+      "name": "Carpet of Flying",
+      "url": "https://play5e.net/magic-items/carpet-of-flying"
+    },
+    {
+      "position": 165,
+      "name": "Cloak of Arachnida",
+      "url": "https://play5e.net/magic-items/cloak-of-arachnida"
+    },
+    {
+      "position": 166,
+      "name": "Crystal Ball",
+      "url": "https://play5e.net/magic-items/crystal-ball"
+    },
+    {
+      "position": 167,
+      "name": "Dancing Sword",
+      "url": "https://play5e.net/magic-items/dancing-sword"
+    },
+    {
+      "position": 168,
+      "name": "Demon Armor",
+      "url": "https://play5e.net/magic-items/demon-armor"
+    },
+    {
+      "position": 169,
+      "name": "Dragon Scale Mail",
+      "url": "https://play5e.net/magic-items/dragon-scale-mail"
+    },
+    {
+      "position": 170,
+      "name": "Dwarven Plate",
+      "url": "https://play5e.net/magic-items/dwarven-plate"
+    },
+    {
+      "position": 171,
+      "name": "Dwarven Thrower",
+      "url": "https://play5e.net/magic-items/dwarven-thrower"
+    },
+    {
+      "position": 172,
+      "name": "Efreeti Bottle",
+      "url": "https://play5e.net/magic-items/efreeti-bottle"
+    },
+    {
+      "position": 173,
+      "name": "Energy Bow",
+      "url": "https://play5e.net/magic-items/energy-bow"
+    },
+    {
+      "position": 174,
+      "name": "Frost Brand",
+      "url": "https://play5e.net/magic-items/frost-brand"
+    },
+    {
+      "position": 175,
+      "name": "Hat of Many Spells",
+      "url": "https://play5e.net/magic-items/hat-of-many-spells"
+    },
+    {
+      "position": 176,
+      "name": "Helm of Brilliance",
+      "url": "https://play5e.net/magic-items/helm-of-brilliance"
+    },
+    {
+      "position": 177,
+      "name": "Horseshoes of a Zephyr",
+      "url": "https://play5e.net/magic-items/horseshoes-of-a-zephyr"
+    },
+    {
+      "position": 178,
+      "name": "Manual of Bodily Health",
+      "url": "https://play5e.net/magic-items/manual-of-bodily-health"
+    },
+    {
+      "position": 179,
+      "name": "Manual of Gainful Exercise",
+      "url": "https://play5e.net/magic-items/manual-of-gainful-exercise"
+    },
+    {
+      "position": 180,
+      "name": "Manual of Golems",
+      "url": "https://play5e.net/magic-items/manual-of-golems"
+    },
+    {
+      "position": 181,
+      "name": "Manual of Quickness of Action",
+      "url": "https://play5e.net/magic-items/manual-of-quickness-of-action"
+    },
+    {
+      "position": 182,
+      "name": "Marvelous Pigments",
+      "url": "https://play5e.net/magic-items/marvelous-pigments"
+    },
+    {
+      "position": 183,
+      "name": "Mirror of Life Trapping",
+      "url": "https://play5e.net/magic-items/mirror-of-life-trapping"
+    },
+    {
+      "position": 184,
+      "name": "Nine Lives Stealer",
+      "url": "https://play5e.net/magic-items/nine-lives-stealer"
+    },
+    {
+      "position": 185,
+      "name": "Oathbow",
+      "url": "https://play5e.net/magic-items/oathbow"
+    },
+    {
+      "position": 186,
+      "name": "Oil of Sharpness",
+      "url": "https://play5e.net/magic-items/oil-of-sharpness"
+    },
+    {
+      "position": 187,
+      "name": "Potion of Flying",
+      "url": "https://play5e.net/magic-items/potion-of-flying"
+    },
+    {
+      "position": 188,
+      "name": "Potion of Invisibility",
+      "url": "https://play5e.net/magic-items/potion-of-invisibility"
+    },
+    {
+      "position": 189,
+      "name": "Potion of Longevity",
+      "url": "https://play5e.net/magic-items/potion-of-longevity"
+    },
+    {
+      "position": 190,
+      "name": "Potion of Speed",
+      "url": "https://play5e.net/magic-items/potion-of-speed"
+    },
+    {
+      "position": 191,
+      "name": "Potion of Vitality",
+      "url": "https://play5e.net/magic-items/potion-of-vitality"
+    },
+    {
+      "position": 192,
+      "name": "Quarterstaff of the Acrobat",
+      "url": "https://play5e.net/magic-items/quarterstaff-of-the-acrobat"
+    },
+    {
+      "position": 193,
+      "name": "Ring of Regeneration",
+      "url": "https://play5e.net/magic-items/ring-of-regeneration"
+    },
+    {
+      "position": 194,
+      "name": "Ring of Shooting Stars",
+      "url": "https://play5e.net/magic-items/ring-of-shooting-stars"
+    },
+    {
+      "position": 195,
+      "name": "Ring of Telekinesis",
+      "url": "https://play5e.net/magic-items/ring-of-telekinesis"
+    },
+    {
+      "position": 196,
+      "name": "Robe of Scintillating Colors",
+      "url": "https://play5e.net/magic-items/robe-of-scintillating-colors"
+    },
+    {
+      "position": 197,
+      "name": "Robe of Stars",
+      "url": "https://play5e.net/magic-items/robe-of-stars"
+    },
+    {
+      "position": 198,
+      "name": "Rod of Absorption",
+      "url": "https://play5e.net/magic-items/rod-of-absorption"
+    },
+    {
+      "position": 199,
+      "name": "Rod of Alertness",
+      "url": "https://play5e.net/magic-items/rod-of-alertness"
+    },
+    {
+      "position": 200,
+      "name": "Rod of Security",
+      "url": "https://play5e.net/magic-items/rod-of-security"
+    },
+    {
+      "position": 201,
+      "name": "Scimitar of Speed",
+      "url": "https://play5e.net/magic-items/scimitar-of-speed"
+    },
+    {
+      "position": 202,
+      "name": "Shield of the Cavalier",
+      "url": "https://play5e.net/magic-items/shield-of-the-cavalier"
+    },
+    {
+      "position": 203,
+      "name": "Spellguard Shield",
+      "url": "https://play5e.net/magic-items/spellguard-shield"
+    },
+    {
+      "position": 204,
+      "name": "Staff of Fire",
+      "url": "https://play5e.net/magic-items/staff-of-fire"
+    },
+    {
+      "position": 205,
+      "name": "Staff of Frost",
+      "url": "https://play5e.net/magic-items/staff-of-frost"
+    },
+    {
+      "position": 206,
+      "name": "Staff of Power",
+      "url": "https://play5e.net/magic-items/staff-of-power"
+    },
+    {
+      "position": 207,
+      "name": "Staff of Striking",
+      "url": "https://play5e.net/magic-items/staff-of-striking"
+    },
+    {
+      "position": 208,
+      "name": "Staff of Thunder and Lightning",
+      "url": "https://play5e.net/magic-items/staff-of-thunder-and-lightning"
+    },
+    {
+      "position": 209,
+      "name": "Sword of Sharpness",
+      "url": "https://play5e.net/magic-items/sword-of-sharpness"
+    },
+    {
+      "position": 210,
+      "name": "Thunderous Greatclub",
+      "url": "https://play5e.net/magic-items/thunderous-greatclub"
+    },
+    {
+      "position": 211,
+      "name": "Tome of Clear Thought",
+      "url": "https://play5e.net/magic-items/tome-of-clear-thought"
+    },
+    {
+      "position": 212,
+      "name": "Tome of Leadership and Influence",
+      "url": "https://play5e.net/magic-items/tome-of-leadership-and-influence"
+    },
+    {
+      "position": 213,
+      "name": "Tome of Understanding",
+      "url": "https://play5e.net/magic-items/tome-of-understanding"
+    },
+    {
+      "position": 214,
+      "name": "Wand of Polymorph",
+      "url": "https://play5e.net/magic-items/wand-of-polymorph"
+    },
+    {
+      "position": 215,
+      "name": "Apparatus of the Crab",
+      "url": "https://play5e.net/magic-items/apparatus-of-the-crab"
+    },
+    {
+      "position": 216,
+      "name": "Armor of Invulnerability",
+      "url": "https://play5e.net/magic-items/armor-of-invulnerability"
+    },
+    {
+      "position": 217,
+      "name": "Cloak of Invisibility",
+      "url": "https://play5e.net/magic-items/cloak-of-invisibility"
+    },
+    {
+      "position": 218,
+      "name": "Crystal Ball of Mind Reading",
+      "url": "https://play5e.net/magic-items/crystal-ball-of-mind-reading"
+    },
+    {
+      "position": 219,
+      "name": "Crystal Ball of Telepathy",
+      "url": "https://play5e.net/magic-items/crystal-ball-of-telepathy"
+    },
+    {
+      "position": 220,
+      "name": "Crystal Ball of True Seeing",
+      "url": "https://play5e.net/magic-items/crystal-ball-of-true-seeing"
+    },
+    {
+      "position": 221,
+      "name": "Cubic Gate",
+      "url": "https://play5e.net/magic-items/cubic-gate"
+    },
+    {
+      "position": 222,
+      "name": "Deck of Many Things",
+      "url": "https://play5e.net/magic-items/deck-of-many-things"
+    },
+    {
+      "position": 223,
+      "name": "Defender",
+      "url": "https://play5e.net/magic-items/defender"
+    },
+    {
+      "position": 224,
+      "name": "Hammer of Thunderbolts",
+      "url": "https://play5e.net/magic-items/hammer-of-thunderbolts"
+    },
+    {
+      "position": 225,
+      "name": "Holy Avenger",
+      "url": "https://play5e.net/magic-items/holy-avenger"
+    },
+    {
+      "position": 226,
+      "name": "Iron Flask",
+      "url": "https://play5e.net/magic-items/iron-flask"
+    },
+    {
+      "position": 227,
+      "name": "Luck Blade",
+      "url": "https://play5e.net/magic-items/luck-blade"
+    },
+    {
+      "position": 228,
+      "name": "Plate Armor of Etherealness",
+      "url": "https://play5e.net/magic-items/plate-armor-of-etherealness"
+    },
+    {
+      "position": 229,
+      "name": "Ring of Djinni Summoning",
+      "url": "https://play5e.net/magic-items/ring-of-djinni-summoning"
+    },
+    {
+      "position": 230,
+      "name": "Ring of Elemental Command",
+      "url": "https://play5e.net/magic-items/ring-of-elemental-command"
+    },
+    {
+      "position": 231,
+      "name": "Ring of Invisibility",
+      "url": "https://play5e.net/magic-items/ring-of-invisibility"
+    },
+    {
+      "position": 232,
+      "name": "Ring of Spell Turning",
+      "url": "https://play5e.net/magic-items/ring-of-spell-turning"
+    },
+    {
+      "position": 233,
+      "name": "Ring of Three Wishes",
+      "url": "https://play5e.net/magic-items/ring-of-three-wishes"
+    },
+    {
+      "position": 234,
+      "name": "Robe of the Archmagi",
+      "url": "https://play5e.net/magic-items/robe-of-the-archmagi"
+    },
+    {
+      "position": 235,
+      "name": "Rod of Lordly Might",
+      "url": "https://play5e.net/magic-items/rod-of-lordly-might"
+    },
+    {
+      "position": 236,
+      "name": "Rod of Resurrection",
+      "url": "https://play5e.net/magic-items/rod-of-resurrection"
+    },
+    {
+      "position": 237,
+      "name": "Scarab of Protection",
+      "url": "https://play5e.net/magic-items/scarab-of-protection"
+    },
+    {
+      "position": 238,
+      "name": "Sovereign Glue",
+      "url": "https://play5e.net/magic-items/sovereign-glue"
+    },
+    {
+      "position": 239,
+      "name": "Sphere of Annihilation",
+      "url": "https://play5e.net/magic-items/sphere-of-annihilation"
+    },
+    {
+      "position": 240,
+      "name": "Staff of the Magi",
+      "url": "https://play5e.net/magic-items/staff-of-the-magi"
+    },
+    {
+      "position": 241,
+      "name": "Talisman of Pure Good",
+      "url": "https://play5e.net/magic-items/talisman-of-pure-good"
+    },
+    {
+      "position": 242,
+      "name": "Talisman of the Sphere",
+      "url": "https://play5e.net/magic-items/talisman-of-the-sphere"
+    },
+    {
+      "position": 243,
+      "name": "Talisman of Ultimate Evil",
+      "url": "https://play5e.net/magic-items/talisman-of-ultimate-evil"
+    },
+    {
+      "position": 244,
+      "name": "Universal Solvent",
+      "url": "https://play5e.net/magic-items/universal-solvent"
+    },
+    {
+      "position": 245,
+      "name": "Vorpal Sword",
+      "url": "https://play5e.net/magic-items/vorpal-sword"
+    },
+    {
+      "position": 246,
+      "name": "Well of Many Worlds",
+      "url": "https://play5e.net/magic-items/well-of-many-worlds"
+    },
+    {
+      "position": 247,
+      "name": "Orb of Dragonkind",
+      "url": "https://play5e.net/magic-items/orb-of-dragonkind"
+    },
+    {
+      "position": 248,
+      "name": "Ammunition, +1, +2, or +3",
+      "url": "https://play5e.net/magic-items/ammunition"
+    },
+    {
+      "position": 249,
+      "name": "Armor, +1, +2, or +3",
+      "url": "https://play5e.net/magic-items/armor"
+    },
+    {
+      "position": 250,
+      "name": "Belt of Giant Strength",
+      "url": "https://play5e.net/magic-items/belt-of-giant-strength"
+    },
+    {
+      "position": 251,
+      "name": "Figurine of Wondrous Power",
+      "url": "https://play5e.net/magic-items/figurine-of-wondrous-power"
+    },
+    {
+      "position": 252,
+      "name": "Horn of Valhalla",
+      "url": "https://play5e.net/magic-items/horn-of-valhalla"
+    },
+    {
+      "position": 253,
+      "name": "Ioun Stone",
+      "url": "https://play5e.net/magic-items/ioun-stone"
+    },
+    {
+      "position": 254,
+      "name": "Potion of Giant Strength",
+      "url": "https://play5e.net/magic-items/potion-of-giant-strength"
+    },
+    {
+      "position": 255,
+      "name": "Potion of Healing",
+      "url": "https://play5e.net/magic-items/potion-of-healing"
+    },
+    {
+      "position": 256,
+      "name": "Shield, +1, +2, or +3",
+      "url": "https://play5e.net/magic-items/shield"
+    },
+    {
+      "position": 257,
+      "name": "Spell Scroll",
+      "url": "https://play5e.net/magic-items/spell-scroll"
+    },
+    {
+      "position": 258,
+      "name": "Wand of the War Mage, +1, +2, or +3",
+      "url": "https://play5e.net/magic-items/wand-of-the-war-mage"
+    },
+    {
+      "position": 259,
+      "name": "Weapon, +1, +2, or +3",
+      "url": "https://play5e.net/magic-items/weapon"
+    }
+  ]
+}

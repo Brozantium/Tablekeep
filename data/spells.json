@@ -1,0 +1,1713 @@
+{
+  "source_page": "https://play5e.net/spells",
+  "item_list_name": "D&D 5e spells (SRD 5.1 and 5.2)",
+  "declared_count": 341,
+  "extracted_count": 341,
+  "items": [
+    {
+      "position": 1,
+      "name": "Acid Splash",
+      "url": "https://play5e.net/spells/acid-splash"
+    },
+    {
+      "position": 2,
+      "name": "Chill Touch",
+      "url": "https://play5e.net/spells/chill-touch"
+    },
+    {
+      "position": 3,
+      "name": "Dancing Lights",
+      "url": "https://play5e.net/spells/dancing-lights"
+    },
+    {
+      "position": 4,
+      "name": "Druidcraft",
+      "url": "https://play5e.net/spells/druidcraft"
+    },
+    {
+      "position": 5,
+      "name": "Eldritch Blast",
+      "url": "https://play5e.net/spells/eldritch-blast"
+    },
+    {
+      "position": 6,
+      "name": "Elementalism",
+      "url": "https://play5e.net/spells/elementalism"
+    },
+    {
+      "position": 7,
+      "name": "Fire Bolt",
+      "url": "https://play5e.net/spells/fire-bolt"
+    },
+    {
+      "position": 8,
+      "name": "Guidance",
+      "url": "https://play5e.net/spells/guidance"
+    },
+    {
+      "position": 9,
+      "name": "Light",
+      "url": "https://play5e.net/spells/light"
+    },
+    {
+      "position": 10,
+      "name": "Mage Hand",
+      "url": "https://play5e.net/spells/mage-hand"
+    },
+    {
+      "position": 11,
+      "name": "Mending",
+      "url": "https://play5e.net/spells/mending"
+    },
+    {
+      "position": 12,
+      "name": "Message",
+      "url": "https://play5e.net/spells/message"
+    },
+    {
+      "position": 13,
+      "name": "Minor Illusion",
+      "url": "https://play5e.net/spells/minor-illusion"
+    },
+    {
+      "position": 14,
+      "name": "Poison Spray",
+      "url": "https://play5e.net/spells/poison-spray"
+    },
+    {
+      "position": 15,
+      "name": "Prestidigitation",
+      "url": "https://play5e.net/spells/prestidigitation"
+    },
+    {
+      "position": 16,
+      "name": "Produce Flame",
+      "url": "https://play5e.net/spells/produce-flame"
+    },
+    {
+      "position": 17,
+      "name": "Ray of Frost",
+      "url": "https://play5e.net/spells/ray-of-frost"
+    },
+    {
+      "position": 18,
+      "name": "Resistance",
+      "url": "https://play5e.net/spells/resistance"
+    },
+    {
+      "position": 19,
+      "name": "Sacred Flame",
+      "url": "https://play5e.net/spells/sacred-flame"
+    },
+    {
+      "position": 20,
+      "name": "Shillelagh",
+      "url": "https://play5e.net/spells/shillelagh"
+    },
+    {
+      "position": 21,
+      "name": "Shocking Grasp",
+      "url": "https://play5e.net/spells/shocking-grasp"
+    },
+    {
+      "position": 22,
+      "name": "Sorcerous Burst",
+      "url": "https://play5e.net/spells/sorcerous-burst"
+    },
+    {
+      "position": 23,
+      "name": "Spare the Dying",
+      "url": "https://play5e.net/spells/spare-the-dying"
+    },
+    {
+      "position": 24,
+      "name": "Starry Wisp",
+      "url": "https://play5e.net/spells/starry-wisp"
+    },
+    {
+      "position": 25,
+      "name": "Thaumaturgy",
+      "url": "https://play5e.net/spells/thaumaturgy"
+    },
+    {
+      "position": 26,
+      "name": "True Strike",
+      "url": "https://play5e.net/spells/true-strike"
+    },
+    {
+      "position": 27,
+      "name": "Vicious Mockery",
+      "url": "https://play5e.net/spells/vicious-mockery"
+    },
+    {
+      "position": 28,
+      "name": "Alarm",
+      "url": "https://play5e.net/spells/alarm"
+    },
+    {
+      "position": 29,
+      "name": "Animal Friendship",
+      "url": "https://play5e.net/spells/animal-friendship"
+    },
+    {
+      "position": 30,
+      "name": "Bane",
+      "url": "https://play5e.net/spells/bane"
+    },
+    {
+      "position": 31,
+      "name": "Bless",
+      "url": "https://play5e.net/spells/bless"
+    },
+    {
+      "position": 32,
+      "name": "Burning Hands",
+      "url": "https://play5e.net/spells/burning-hands"
+    },
+    {
+      "position": 33,
+      "name": "Charm Person",
+      "url": "https://play5e.net/spells/charm-person"
+    },
+    {
+      "position": 34,
+      "name": "Chromatic Orb",
+      "url": "https://play5e.net/spells/chromatic-orb"
+    },
+    {
+      "position": 35,
+      "name": "Color Spray",
+      "url": "https://play5e.net/spells/color-spray"
+    },
+    {
+      "position": 36,
+      "name": "Command",
+      "url": "https://play5e.net/spells/command"
+    },
+    {
+      "position": 37,
+      "name": "Comprehend Languages",
+      "url": "https://play5e.net/spells/comprehend-languages"
+    },
+    {
+      "position": 38,
+      "name": "Create or Destroy Water",
+      "url": "https://play5e.net/spells/create-or-destroy-water"
+    },
+    {
+      "position": 39,
+      "name": "Cure Wounds",
+      "url": "https://play5e.net/spells/cure-wounds"
+    },
+    {
+      "position": 40,
+      "name": "Detect Evil and Good",
+      "url": "https://play5e.net/spells/detect-evil-and-good"
+    },
+    {
+      "position": 41,
+      "name": "Detect Magic",
+      "url": "https://play5e.net/spells/detect-magic"
+    },
+    {
+      "position": 42,
+      "name": "Detect Poison and Disease",
+      "url": "https://play5e.net/spells/detect-poison-and-disease"
+    },
+    {
+      "position": 43,
+      "name": "Disguise Self",
+      "url": "https://play5e.net/spells/disguise-self"
+    },
+    {
+      "position": 44,
+      "name": "Dissonant Whispers",
+      "url": "https://play5e.net/spells/dissonant-whispers"
+    },
+    {
+      "position": 45,
+      "name": "Divine Favor",
+      "url": "https://play5e.net/spells/divine-favor"
+    },
+    {
+      "position": 46,
+      "name": "Divine Smite",
+      "url": "https://play5e.net/spells/divine-smite"
+    },
+    {
+      "position": 47,
+      "name": "Ensnaring Strike",
+      "url": "https://play5e.net/spells/ensnaring-strike"
+    },
+    {
+      "position": 48,
+      "name": "Entangle",
+      "url": "https://play5e.net/spells/entangle"
+    },
+    {
+      "position": 49,
+      "name": "Expeditious Retreat",
+      "url": "https://play5e.net/spells/expeditious-retreat"
+    },
+    {
+      "position": 50,
+      "name": "Faerie Fire",
+      "url": "https://play5e.net/spells/faerie-fire"
+    },
+    {
+      "position": 51,
+      "name": "False Life",
+      "url": "https://play5e.net/spells/false-life"
+    },
+    {
+      "position": 52,
+      "name": "Feather Fall",
+      "url": "https://play5e.net/spells/feather-fall"
+    },
+    {
+      "position": 53,
+      "name": "Find Familiar",
+      "url": "https://play5e.net/spells/find-familiar"
+    },
+    {
+      "position": 54,
+      "name": "Tenser’s Floating Disk (Floating Disk)",
+      "url": "https://play5e.net/spells/floating-disk"
+    },
+    {
+      "position": 55,
+      "name": "Fog Cloud",
+      "url": "https://play5e.net/spells/fog-cloud"
+    },
+    {
+      "position": 56,
+      "name": "Goodberry",
+      "url": "https://play5e.net/spells/goodberry"
+    },
+    {
+      "position": 57,
+      "name": "Grease",
+      "url": "https://play5e.net/spells/grease"
+    },
+    {
+      "position": 58,
+      "name": "Guiding Bolt",
+      "url": "https://play5e.net/spells/guiding-bolt"
+    },
+    {
+      "position": 59,
+      "name": "Healing Word",
+      "url": "https://play5e.net/spells/healing-word"
+    },
+    {
+      "position": 60,
+      "name": "Hellish Rebuke",
+      "url": "https://play5e.net/spells/hellish-rebuke"
+    },
+    {
+      "position": 61,
+      "name": "Heroism",
+      "url": "https://play5e.net/spells/heroism"
+    },
+    {
+      "position": 62,
+      "name": "Hex",
+      "url": "https://play5e.net/spells/hex"
+    },
+    {
+      "position": 63,
+      "name": "Tasha’s Hideous Laughter (Hideous Laughter)",
+      "url": "https://play5e.net/spells/hideous-laughter"
+    },
+    {
+      "position": 64,
+      "name": "Hunter's Mark",
+      "url": "https://play5e.net/spells/hunters-mark"
+    },
+    {
+      "position": 65,
+      "name": "Ice Knife",
+      "url": "https://play5e.net/spells/ice-knife"
+    },
+    {
+      "position": 66,
+      "name": "Identify",
+      "url": "https://play5e.net/spells/identify"
+    },
+    {
+      "position": 67,
+      "name": "Illusory Script",
+      "url": "https://play5e.net/spells/illusory-script"
+    },
+    {
+      "position": 68,
+      "name": "Inflict Wounds",
+      "url": "https://play5e.net/spells/inflict-wounds"
+    },
+    {
+      "position": 69,
+      "name": "Jump",
+      "url": "https://play5e.net/spells/jump"
+    },
+    {
+      "position": 70,
+      "name": "Longstrider",
+      "url": "https://play5e.net/spells/longstrider"
+    },
+    {
+      "position": 71,
+      "name": "Mage Armor",
+      "url": "https://play5e.net/spells/mage-armor"
+    },
+    {
+      "position": 72,
+      "name": "Magic Missile",
+      "url": "https://play5e.net/spells/magic-missile"
+    },
+    {
+      "position": 73,
+      "name": "Protection from Evil and Good",
+      "url": "https://play5e.net/spells/protection-from-evil-and-good"
+    },
+    {
+      "position": 74,
+      "name": "Purify Food and Drink",
+      "url": "https://play5e.net/spells/purify-food-and-drink"
+    },
+    {
+      "position": 75,
+      "name": "Ray of Sickness",
+      "url": "https://play5e.net/spells/ray-of-sickness"
+    },
+    {
+      "position": 76,
+      "name": "Sanctuary",
+      "url": "https://play5e.net/spells/sanctuary"
+    },
+    {
+      "position": 77,
+      "name": "Searing Smite",
+      "url": "https://play5e.net/spells/searing-smite"
+    },
+    {
+      "position": 78,
+      "name": "Shield",
+      "url": "https://play5e.net/spells/shield"
+    },
+    {
+      "position": 79,
+      "name": "Shield of Faith",
+      "url": "https://play5e.net/spells/shield-of-faith"
+    },
+    {
+      "position": 80,
+      "name": "Silent Image",
+      "url": "https://play5e.net/spells/silent-image"
+    },
+    {
+      "position": 81,
+      "name": "Sleep",
+      "url": "https://play5e.net/spells/sleep"
+    },
+    {
+      "position": 82,
+      "name": "Speak with Animals",
+      "url": "https://play5e.net/spells/speak-with-animals"
+    },
+    {
+      "position": 83,
+      "name": "Thunderwave",
+      "url": "https://play5e.net/spells/thunderwave"
+    },
+    {
+      "position": 84,
+      "name": "Unseen Servant",
+      "url": "https://play5e.net/spells/unseen-servant"
+    },
+    {
+      "position": 85,
+      "name": "Melf’s Acid Arrow (Acid Arrow)",
+      "url": "https://play5e.net/spells/acid-arrow"
+    },
+    {
+      "position": 86,
+      "name": "Aid",
+      "url": "https://play5e.net/spells/aid"
+    },
+    {
+      "position": 87,
+      "name": "Alter Self",
+      "url": "https://play5e.net/spells/alter-self"
+    },
+    {
+      "position": 88,
+      "name": "Animal Messenger",
+      "url": "https://play5e.net/spells/animal-messenger"
+    },
+    {
+      "position": 89,
+      "name": "Arcane Lock",
+      "url": "https://play5e.net/spells/arcane-lock"
+    },
+    {
+      "position": 90,
+      "name": "Nystul’s Magic Aura (Arcanist's Magic Aura)",
+      "url": "https://play5e.net/spells/arcanists-magic-aura"
+    },
+    {
+      "position": 91,
+      "name": "Augury",
+      "url": "https://play5e.net/spells/augury"
+    },
+    {
+      "position": 92,
+      "name": "Barkskin",
+      "url": "https://play5e.net/spells/barkskin"
+    },
+    {
+      "position": 93,
+      "name": "Blindness/Deafness",
+      "url": "https://play5e.net/spells/blindness-deafness"
+    },
+    {
+      "position": 94,
+      "name": "Blur",
+      "url": "https://play5e.net/spells/blur"
+    },
+    {
+      "position": 95,
+      "name": "Branding Smite",
+      "url": "https://play5e.net/spells/branding-smite"
+    },
+    {
+      "position": 96,
+      "name": "Calm Emotions",
+      "url": "https://play5e.net/spells/calm-emotions"
+    },
+    {
+      "position": 97,
+      "name": "Continual Flame",
+      "url": "https://play5e.net/spells/continual-flame"
+    },
+    {
+      "position": 98,
+      "name": "Darkness",
+      "url": "https://play5e.net/spells/darkness"
+    },
+    {
+      "position": 99,
+      "name": "Darkvision",
+      "url": "https://play5e.net/spells/darkvision"
+    },
+    {
+      "position": 100,
+      "name": "Detect Thoughts",
+      "url": "https://play5e.net/spells/detect-thoughts"
+    },
+    {
+      "position": 101,
+      "name": "Dragon's Breath",
+      "url": "https://play5e.net/spells/dragons-breath"
+    },
+    {
+      "position": 102,
+      "name": "Enhance Ability",
+      "url": "https://play5e.net/spells/enhance-ability"
+    },
+    {
+      "position": 103,
+      "name": "Enlarge/Reduce",
+      "url": "https://play5e.net/spells/enlarge-reduce"
+    },
+    {
+      "position": 104,
+      "name": "Enthrall",
+      "url": "https://play5e.net/spells/enthrall"
+    },
+    {
+      "position": 105,
+      "name": "Find Steed",
+      "url": "https://play5e.net/spells/find-steed"
+    },
+    {
+      "position": 106,
+      "name": "Find Traps",
+      "url": "https://play5e.net/spells/find-traps"
+    },
+    {
+      "position": 107,
+      "name": "Flame Blade",
+      "url": "https://play5e.net/spells/flame-blade"
+    },
+    {
+      "position": 108,
+      "name": "Flaming Sphere",
+      "url": "https://play5e.net/spells/flaming-sphere"
+    },
+    {
+      "position": 109,
+      "name": "Gentle Repose",
+      "url": "https://play5e.net/spells/gentle-repose"
+    },
+    {
+      "position": 110,
+      "name": "Gust of Wind",
+      "url": "https://play5e.net/spells/gust-of-wind"
+    },
+    {
+      "position": 111,
+      "name": "Heat Metal",
+      "url": "https://play5e.net/spells/heat-metal"
+    },
+    {
+      "position": 112,
+      "name": "Hold Person",
+      "url": "https://play5e.net/spells/hold-person"
+    },
+    {
+      "position": 113,
+      "name": "Invisibility",
+      "url": "https://play5e.net/spells/invisibility"
+    },
+    {
+      "position": 114,
+      "name": "Knock",
+      "url": "https://play5e.net/spells/knock"
+    },
+    {
+      "position": 115,
+      "name": "Lesser Restoration",
+      "url": "https://play5e.net/spells/lesser-restoration"
+    },
+    {
+      "position": 116,
+      "name": "Levitate",
+      "url": "https://play5e.net/spells/levitate"
+    },
+    {
+      "position": 117,
+      "name": "Locate Animals or Plants",
+      "url": "https://play5e.net/spells/locate-animals-or-plants"
+    },
+    {
+      "position": 118,
+      "name": "Locate Object",
+      "url": "https://play5e.net/spells/locate-object"
+    },
+    {
+      "position": 119,
+      "name": "Magic Mouth",
+      "url": "https://play5e.net/spells/magic-mouth"
+    },
+    {
+      "position": 120,
+      "name": "Magic Weapon",
+      "url": "https://play5e.net/spells/magic-weapon"
+    },
+    {
+      "position": 121,
+      "name": "Mind Spike",
+      "url": "https://play5e.net/spells/mind-spike"
+    },
+    {
+      "position": 122,
+      "name": "Mirror Image",
+      "url": "https://play5e.net/spells/mirror-image"
+    },
+    {
+      "position": 123,
+      "name": "Misty Step",
+      "url": "https://play5e.net/spells/misty-step"
+    },
+    {
+      "position": 124,
+      "name": "Moonbeam",
+      "url": "https://play5e.net/spells/moonbeam"
+    },
+    {
+      "position": 125,
+      "name": "Pass without Trace",
+      "url": "https://play5e.net/spells/pass-without-trace"
+    },
+    {
+      "position": 126,
+      "name": "Phantasmal Force",
+      "url": "https://play5e.net/spells/phantasmal-force"
+    },
+    {
+      "position": 127,
+      "name": "Prayer of Healing",
+      "url": "https://play5e.net/spells/prayer-of-healing"
+    },
+    {
+      "position": 128,
+      "name": "Protection from Poison",
+      "url": "https://play5e.net/spells/protection-from-poison"
+    },
+    {
+      "position": 129,
+      "name": "Ray of Enfeeblement",
+      "url": "https://play5e.net/spells/ray-of-enfeeblement"
+    },
+    {
+      "position": 130,
+      "name": "Rope Trick",
+      "url": "https://play5e.net/spells/rope-trick"
+    },
+    {
+      "position": 131,
+      "name": "Scorching Ray",
+      "url": "https://play5e.net/spells/scorching-ray"
+    },
+    {
+      "position": 132,
+      "name": "See Invisibility",
+      "url": "https://play5e.net/spells/see-invisibility"
+    },
+    {
+      "position": 133,
+      "name": "Shatter",
+      "url": "https://play5e.net/spells/shatter"
+    },
+    {
+      "position": 134,
+      "name": "Shining Smite",
+      "url": "https://play5e.net/spells/shining-smite"
+    },
+    {
+      "position": 135,
+      "name": "Silence",
+      "url": "https://play5e.net/spells/silence"
+    },
+    {
+      "position": 136,
+      "name": "Spider Climb",
+      "url": "https://play5e.net/spells/spider-climb"
+    },
+    {
+      "position": 137,
+      "name": "Spike Growth",
+      "url": "https://play5e.net/spells/spike-growth"
+    },
+    {
+      "position": 138,
+      "name": "Spiritual Weapon",
+      "url": "https://play5e.net/spells/spiritual-weapon"
+    },
+    {
+      "position": 139,
+      "name": "Suggestion",
+      "url": "https://play5e.net/spells/suggestion"
+    },
+    {
+      "position": 140,
+      "name": "Warding Bond",
+      "url": "https://play5e.net/spells/warding-bond"
+    },
+    {
+      "position": 141,
+      "name": "Web",
+      "url": "https://play5e.net/spells/web"
+    },
+    {
+      "position": 142,
+      "name": "Zone of Truth",
+      "url": "https://play5e.net/spells/zone-of-truth"
+    },
+    {
+      "position": 143,
+      "name": "Animate Dead",
+      "url": "https://play5e.net/spells/animate-dead"
+    },
+    {
+      "position": 144,
+      "name": "Beacon of Hope",
+      "url": "https://play5e.net/spells/beacon-of-hope"
+    },
+    {
+      "position": 145,
+      "name": "Bestow Curse",
+      "url": "https://play5e.net/spells/bestow-curse"
+    },
+    {
+      "position": 146,
+      "name": "Blink",
+      "url": "https://play5e.net/spells/blink"
+    },
+    {
+      "position": 147,
+      "name": "Call Lightning",
+      "url": "https://play5e.net/spells/call-lightning"
+    },
+    {
+      "position": 148,
+      "name": "Clairvoyance",
+      "url": "https://play5e.net/spells/clairvoyance"
+    },
+    {
+      "position": 149,
+      "name": "Conjure Animals",
+      "url": "https://play5e.net/spells/conjure-animals"
+    },
+    {
+      "position": 150,
+      "name": "Counterspell",
+      "url": "https://play5e.net/spells/counterspell"
+    },
+    {
+      "position": 151,
+      "name": "Create Food and Water",
+      "url": "https://play5e.net/spells/create-food-and-water"
+    },
+    {
+      "position": 152,
+      "name": "Daylight",
+      "url": "https://play5e.net/spells/daylight"
+    },
+    {
+      "position": 153,
+      "name": "Dispel Magic",
+      "url": "https://play5e.net/spells/dispel-magic"
+    },
+    {
+      "position": 154,
+      "name": "Fear",
+      "url": "https://play5e.net/spells/fear"
+    },
+    {
+      "position": 155,
+      "name": "Fireball",
+      "url": "https://play5e.net/spells/fireball"
+    },
+    {
+      "position": 156,
+      "name": "Fly",
+      "url": "https://play5e.net/spells/fly"
+    },
+    {
+      "position": 157,
+      "name": "Gaseous Form",
+      "url": "https://play5e.net/spells/gaseous-form"
+    },
+    {
+      "position": 158,
+      "name": "Glyph of Warding",
+      "url": "https://play5e.net/spells/glyph-of-warding"
+    },
+    {
+      "position": 159,
+      "name": "Haste",
+      "url": "https://play5e.net/spells/haste"
+    },
+    {
+      "position": 160,
+      "name": "Hypnotic Pattern",
+      "url": "https://play5e.net/spells/hypnotic-pattern"
+    },
+    {
+      "position": 161,
+      "name": "Lightning Bolt",
+      "url": "https://play5e.net/spells/lightning-bolt"
+    },
+    {
+      "position": 162,
+      "name": "Magic Circle",
+      "url": "https://play5e.net/spells/magic-circle"
+    },
+    {
+      "position": 163,
+      "name": "Major Image",
+      "url": "https://play5e.net/spells/major-image"
+    },
+    {
+      "position": 164,
+      "name": "Mass Healing Word",
+      "url": "https://play5e.net/spells/mass-healing-word"
+    },
+    {
+      "position": 165,
+      "name": "Meld into Stone",
+      "url": "https://play5e.net/spells/meld-into-stone"
+    },
+    {
+      "position": 166,
+      "name": "Nondetection",
+      "url": "https://play5e.net/spells/nondetection"
+    },
+    {
+      "position": 167,
+      "name": "Phantom Steed",
+      "url": "https://play5e.net/spells/phantom-steed"
+    },
+    {
+      "position": 168,
+      "name": "Plant Growth",
+      "url": "https://play5e.net/spells/plant-growth"
+    },
+    {
+      "position": 169,
+      "name": "Protection from Energy",
+      "url": "https://play5e.net/spells/protection-from-energy"
+    },
+    {
+      "position": 170,
+      "name": "Remove Curse",
+      "url": "https://play5e.net/spells/remove-curse"
+    },
+    {
+      "position": 171,
+      "name": "Revivify",
+      "url": "https://play5e.net/spells/revivify"
+    },
+    {
+      "position": 172,
+      "name": "Sending",
+      "url": "https://play5e.net/spells/sending"
+    },
+    {
+      "position": 173,
+      "name": "Sleet Storm",
+      "url": "https://play5e.net/spells/sleet-storm"
+    },
+    {
+      "position": 174,
+      "name": "Slow",
+      "url": "https://play5e.net/spells/slow"
+    },
+    {
+      "position": 175,
+      "name": "Speak with Dead",
+      "url": "https://play5e.net/spells/speak-with-dead"
+    },
+    {
+      "position": 176,
+      "name": "Speak with Plants",
+      "url": "https://play5e.net/spells/speak-with-plants"
+    },
+    {
+      "position": 177,
+      "name": "Spirit Guardians",
+      "url": "https://play5e.net/spells/spirit-guardians"
+    },
+    {
+      "position": 178,
+      "name": "Stinking Cloud",
+      "url": "https://play5e.net/spells/stinking-cloud"
+    },
+    {
+      "position": 179,
+      "name": "Leomund’s Tiny Hut (Tiny Hut)",
+      "url": "https://play5e.net/spells/tiny-hut"
+    },
+    {
+      "position": 180,
+      "name": "Tongues",
+      "url": "https://play5e.net/spells/tongues"
+    },
+    {
+      "position": 181,
+      "name": "Vampiric Touch",
+      "url": "https://play5e.net/spells/vampiric-touch"
+    },
+    {
+      "position": 182,
+      "name": "Water Breathing",
+      "url": "https://play5e.net/spells/water-breathing"
+    },
+    {
+      "position": 183,
+      "name": "Water Walk",
+      "url": "https://play5e.net/spells/water-walk"
+    },
+    {
+      "position": 184,
+      "name": "Wind Wall",
+      "url": "https://play5e.net/spells/wind-wall"
+    },
+    {
+      "position": 185,
+      "name": "Arcane Eye",
+      "url": "https://play5e.net/spells/arcane-eye"
+    },
+    {
+      "position": 186,
+      "name": "Aura of Life",
+      "url": "https://play5e.net/spells/aura-of-life"
+    },
+    {
+      "position": 187,
+      "name": "Banishment",
+      "url": "https://play5e.net/spells/banishment"
+    },
+    {
+      "position": 188,
+      "name": "Evard’s Black Tentacles (Black Tentacles)",
+      "url": "https://play5e.net/spells/black-tentacles"
+    },
+    {
+      "position": 189,
+      "name": "Blight",
+      "url": "https://play5e.net/spells/blight"
+    },
+    {
+      "position": 190,
+      "name": "Charm Monster",
+      "url": "https://play5e.net/spells/charm-monster"
+    },
+    {
+      "position": 191,
+      "name": "Compulsion",
+      "url": "https://play5e.net/spells/compulsion"
+    },
+    {
+      "position": 192,
+      "name": "Confusion",
+      "url": "https://play5e.net/spells/confusion"
+    },
+    {
+      "position": 193,
+      "name": "Conjure Minor Elementals",
+      "url": "https://play5e.net/spells/conjure-minor-elementals"
+    },
+    {
+      "position": 194,
+      "name": "Conjure Woodland Beings",
+      "url": "https://play5e.net/spells/conjure-woodland-beings"
+    },
+    {
+      "position": 195,
+      "name": "Control Water",
+      "url": "https://play5e.net/spells/control-water"
+    },
+    {
+      "position": 196,
+      "name": "Death Ward",
+      "url": "https://play5e.net/spells/death-ward"
+    },
+    {
+      "position": 197,
+      "name": "Dimension Door",
+      "url": "https://play5e.net/spells/dimension-door"
+    },
+    {
+      "position": 198,
+      "name": "Divination",
+      "url": "https://play5e.net/spells/divination"
+    },
+    {
+      "position": 199,
+      "name": "Dominate Beast",
+      "url": "https://play5e.net/spells/dominate-beast"
+    },
+    {
+      "position": 200,
+      "name": "Fabricate",
+      "url": "https://play5e.net/spells/fabricate"
+    },
+    {
+      "position": 201,
+      "name": "Mordenkainen’s Faithful Hound (Faithful Hound)",
+      "url": "https://play5e.net/spells/faithful-hound"
+    },
+    {
+      "position": 202,
+      "name": "Fire Shield",
+      "url": "https://play5e.net/spells/fire-shield"
+    },
+    {
+      "position": 203,
+      "name": "Freedom of Movement",
+      "url": "https://play5e.net/spells/freedom-of-movement"
+    },
+    {
+      "position": 204,
+      "name": "Giant Insect",
+      "url": "https://play5e.net/spells/giant-insect"
+    },
+    {
+      "position": 205,
+      "name": "Greater Invisibility",
+      "url": "https://play5e.net/spells/greater-invisibility"
+    },
+    {
+      "position": 206,
+      "name": "Guardian of Faith",
+      "url": "https://play5e.net/spells/guardian-of-faith"
+    },
+    {
+      "position": 207,
+      "name": "Hallucinatory Terrain",
+      "url": "https://play5e.net/spells/hallucinatory-terrain"
+    },
+    {
+      "position": 208,
+      "name": "Ice Storm",
+      "url": "https://play5e.net/spells/ice-storm"
+    },
+    {
+      "position": 209,
+      "name": "Locate Creature",
+      "url": "https://play5e.net/spells/locate-creature"
+    },
+    {
+      "position": 210,
+      "name": "Phantasmal Killer",
+      "url": "https://play5e.net/spells/phantasmal-killer"
+    },
+    {
+      "position": 211,
+      "name": "Polymorph",
+      "url": "https://play5e.net/spells/polymorph"
+    },
+    {
+      "position": 212,
+      "name": "Mordenkainen’s Private Sanctum (Private Sanctum)",
+      "url": "https://play5e.net/spells/private-sanctum"
+    },
+    {
+      "position": 213,
+      "name": "Otiluke’s Resilient Sphere (Resilient Sphere)",
+      "url": "https://play5e.net/spells/resilient-sphere"
+    },
+    {
+      "position": 214,
+      "name": "Leomund’s Secret Chest (Secret Chest)",
+      "url": "https://play5e.net/spells/secret-chest"
+    },
+    {
+      "position": 215,
+      "name": "Stone Shape",
+      "url": "https://play5e.net/spells/stone-shape"
+    },
+    {
+      "position": 216,
+      "name": "Stoneskin",
+      "url": "https://play5e.net/spells/stoneskin"
+    },
+    {
+      "position": 217,
+      "name": "Vitriolic Sphere",
+      "url": "https://play5e.net/spells/vitriolic-sphere"
+    },
+    {
+      "position": 218,
+      "name": "Wall of Fire",
+      "url": "https://play5e.net/spells/wall-of-fire"
+    },
+    {
+      "position": 219,
+      "name": "Animate Objects",
+      "url": "https://play5e.net/spells/animate-objects"
+    },
+    {
+      "position": 220,
+      "name": "Antilife Shell",
+      "url": "https://play5e.net/spells/antilife-shell"
+    },
+    {
+      "position": 221,
+      "name": "Bigby’s Hand (Arcane Hand)",
+      "url": "https://play5e.net/spells/arcane-hand"
+    },
+    {
+      "position": 222,
+      "name": "Awaken",
+      "url": "https://play5e.net/spells/awaken"
+    },
+    {
+      "position": 223,
+      "name": "Cloudkill",
+      "url": "https://play5e.net/spells/cloudkill"
+    },
+    {
+      "position": 224,
+      "name": "Commune",
+      "url": "https://play5e.net/spells/commune"
+    },
+    {
+      "position": 225,
+      "name": "Commune with Nature",
+      "url": "https://play5e.net/spells/commune-with-nature"
+    },
+    {
+      "position": 226,
+      "name": "Cone of Cold",
+      "url": "https://play5e.net/spells/cone-of-cold"
+    },
+    {
+      "position": 227,
+      "name": "Conjure Elemental",
+      "url": "https://play5e.net/spells/conjure-elemental"
+    },
+    {
+      "position": 228,
+      "name": "Contact Other Plane",
+      "url": "https://play5e.net/spells/contact-other-plane"
+    },
+    {
+      "position": 229,
+      "name": "Contagion",
+      "url": "https://play5e.net/spells/contagion"
+    },
+    {
+      "position": 230,
+      "name": "Creation",
+      "url": "https://play5e.net/spells/creation"
+    },
+    {
+      "position": 231,
+      "name": "Dispel Evil and Good",
+      "url": "https://play5e.net/spells/dispel-evil-and-good"
+    },
+    {
+      "position": 232,
+      "name": "Dominate Person",
+      "url": "https://play5e.net/spells/dominate-person"
+    },
+    {
+      "position": 233,
+      "name": "Dream",
+      "url": "https://play5e.net/spells/dream"
+    },
+    {
+      "position": 234,
+      "name": "Flame Strike",
+      "url": "https://play5e.net/spells/flame-strike"
+    },
+    {
+      "position": 235,
+      "name": "Geas",
+      "url": "https://play5e.net/spells/geas"
+    },
+    {
+      "position": 236,
+      "name": "Greater Restoration",
+      "url": "https://play5e.net/spells/greater-restoration"
+    },
+    {
+      "position": 237,
+      "name": "Hallow",
+      "url": "https://play5e.net/spells/hallow"
+    },
+    {
+      "position": 238,
+      "name": "Hold Monster",
+      "url": "https://play5e.net/spells/hold-monster"
+    },
+    {
+      "position": 239,
+      "name": "Insect Plague",
+      "url": "https://play5e.net/spells/insect-plague"
+    },
+    {
+      "position": 240,
+      "name": "Legend Lore",
+      "url": "https://play5e.net/spells/legend-lore"
+    },
+    {
+      "position": 241,
+      "name": "Mass Cure Wounds",
+      "url": "https://play5e.net/spells/mass-cure-wounds"
+    },
+    {
+      "position": 242,
+      "name": "Mislead",
+      "url": "https://play5e.net/spells/mislead"
+    },
+    {
+      "position": 243,
+      "name": "Modify Memory",
+      "url": "https://play5e.net/spells/modify-memory"
+    },
+    {
+      "position": 244,
+      "name": "Passwall",
+      "url": "https://play5e.net/spells/passwall"
+    },
+    {
+      "position": 245,
+      "name": "Planar Binding",
+      "url": "https://play5e.net/spells/planar-binding"
+    },
+    {
+      "position": 246,
+      "name": "Raise Dead",
+      "url": "https://play5e.net/spells/raise-dead"
+    },
+    {
+      "position": 247,
+      "name": "Reincarnate",
+      "url": "https://play5e.net/spells/reincarnate"
+    },
+    {
+      "position": 248,
+      "name": "Scrying",
+      "url": "https://play5e.net/spells/scrying"
+    },
+    {
+      "position": 249,
+      "name": "Seeming",
+      "url": "https://play5e.net/spells/seeming"
+    },
+    {
+      "position": 250,
+      "name": "Summon Dragon",
+      "url": "https://play5e.net/spells/summon-dragon"
+    },
+    {
+      "position": 251,
+      "name": "Telekinesis",
+      "url": "https://play5e.net/spells/telekinesis"
+    },
+    {
+      "position": 252,
+      "name": "Rary’s Telepathic Bond (Telepathic Bond)",
+      "url": "https://play5e.net/spells/telepathic-bond"
+    },
+    {
+      "position": 253,
+      "name": "Teleportation Circle",
+      "url": "https://play5e.net/spells/teleportation-circle"
+    },
+    {
+      "position": 254,
+      "name": "Tree Stride",
+      "url": "https://play5e.net/spells/tree-stride"
+    },
+    {
+      "position": 255,
+      "name": "Wall of Force",
+      "url": "https://play5e.net/spells/wall-of-force"
+    },
+    {
+      "position": 256,
+      "name": "Wall of Stone",
+      "url": "https://play5e.net/spells/wall-of-stone"
+    },
+    {
+      "position": 257,
+      "name": "Blade Barrier",
+      "url": "https://play5e.net/spells/blade-barrier"
+    },
+    {
+      "position": 258,
+      "name": "Chain Lightning",
+      "url": "https://play5e.net/spells/chain-lightning"
+    },
+    {
+      "position": 259,
+      "name": "Circle of Death",
+      "url": "https://play5e.net/spells/circle-of-death"
+    },
+    {
+      "position": 260,
+      "name": "Conjure Fey",
+      "url": "https://play5e.net/spells/conjure-fey"
+    },
+    {
+      "position": 261,
+      "name": "Contingency",
+      "url": "https://play5e.net/spells/contingency"
+    },
+    {
+      "position": 262,
+      "name": "Create Undead",
+      "url": "https://play5e.net/spells/create-undead"
+    },
+    {
+      "position": 263,
+      "name": "Disintegrate",
+      "url": "https://play5e.net/spells/disintegrate"
+    },
+    {
+      "position": 264,
+      "name": "Eyebite",
+      "url": "https://play5e.net/spells/eyebite"
+    },
+    {
+      "position": 265,
+      "name": "Find the Path",
+      "url": "https://play5e.net/spells/find-the-path"
+    },
+    {
+      "position": 266,
+      "name": "Flesh to Stone",
+      "url": "https://play5e.net/spells/flesh-to-stone"
+    },
+    {
+      "position": 267,
+      "name": "Forbiddance",
+      "url": "https://play5e.net/spells/forbiddance"
+    },
+    {
+      "position": 268,
+      "name": "Otiluke’s Freezing Sphere (Freezing Sphere)",
+      "url": "https://play5e.net/spells/freezing-sphere"
+    },
+    {
+      "position": 269,
+      "name": "Globe of Invulnerability",
+      "url": "https://play5e.net/spells/globe-of-invulnerability"
+    },
+    {
+      "position": 270,
+      "name": "Guards and Wards",
+      "url": "https://play5e.net/spells/guards-and-wards"
+    },
+    {
+      "position": 271,
+      "name": "Harm",
+      "url": "https://play5e.net/spells/harm"
+    },
+    {
+      "position": 272,
+      "name": "Heal",
+      "url": "https://play5e.net/spells/heal"
+    },
+    {
+      "position": 273,
+      "name": "Heroes' Feast",
+      "url": "https://play5e.net/spells/heroes-feast"
+    },
+    {
+      "position": 274,
+      "name": "Drawmij’s Instant Summons (Instant Summons)",
+      "url": "https://play5e.net/spells/instant-summons"
+    },
+    {
+      "position": 275,
+      "name": "Otto’s Irresistible Dance (Irresistible Dance)",
+      "url": "https://play5e.net/spells/irresistible-dance"
+    },
+    {
+      "position": 276,
+      "name": "Magic Jar",
+      "url": "https://play5e.net/spells/magic-jar"
+    },
+    {
+      "position": 277,
+      "name": "Mass Suggestion",
+      "url": "https://play5e.net/spells/mass-suggestion"
+    },
+    {
+      "position": 278,
+      "name": "Move Earth",
+      "url": "https://play5e.net/spells/move-earth"
+    },
+    {
+      "position": 279,
+      "name": "Planar Ally",
+      "url": "https://play5e.net/spells/planar-ally"
+    },
+    {
+      "position": 280,
+      "name": "Programmed Illusion",
+      "url": "https://play5e.net/spells/programmed-illusion"
+    },
+    {
+      "position": 281,
+      "name": "Sunbeam",
+      "url": "https://play5e.net/spells/sunbeam"
+    },
+    {
+      "position": 282,
+      "name": "Transport via Plants",
+      "url": "https://play5e.net/spells/transport-via-plants"
+    },
+    {
+      "position": 283,
+      "name": "True Seeing",
+      "url": "https://play5e.net/spells/true-seeing"
+    },
+    {
+      "position": 284,
+      "name": "Wall of Ice",
+      "url": "https://play5e.net/spells/wall-of-ice"
+    },
+    {
+      "position": 285,
+      "name": "Wall of Thorns",
+      "url": "https://play5e.net/spells/wall-of-thorns"
+    },
+    {
+      "position": 286,
+      "name": "Wind Walk",
+      "url": "https://play5e.net/spells/wind-walk"
+    },
+    {
+      "position": 287,
+      "name": "Word of Recall",
+      "url": "https://play5e.net/spells/word-of-recall"
+    },
+    {
+      "position": 288,
+      "name": "Mordenkainen’s Sword (Arcane Sword)",
+      "url": "https://play5e.net/spells/arcane-sword"
+    },
+    {
+      "position": 289,
+      "name": "Conjure Celestial",
+      "url": "https://play5e.net/spells/conjure-celestial"
+    },
+    {
+      "position": 290,
+      "name": "Delayed Blast Fireball",
+      "url": "https://play5e.net/spells/delayed-blast-fireball"
+    },
+    {
+      "position": 291,
+      "name": "Divine Word",
+      "url": "https://play5e.net/spells/divine-word"
+    },
+    {
+      "position": 292,
+      "name": "Etherealness",
+      "url": "https://play5e.net/spells/etherealness"
+    },
+    {
+      "position": 293,
+      "name": "Finger of Death",
+      "url": "https://play5e.net/spells/finger-of-death"
+    },
+    {
+      "position": 294,
+      "name": "Fire Storm",
+      "url": "https://play5e.net/spells/fire-storm"
+    },
+    {
+      "position": 295,
+      "name": "Forcecage",
+      "url": "https://play5e.net/spells/forcecage"
+    },
+    {
+      "position": 296,
+      "name": "Mordenkainen’s Magnificent Mansion (Magnificent Mansion)",
+      "url": "https://play5e.net/spells/magnificent-mansion"
+    },
+    {
+      "position": 297,
+      "name": "Mirage Arcane",
+      "url": "https://play5e.net/spells/mirage-arcane"
+    },
+    {
+      "position": 298,
+      "name": "Plane Shift",
+      "url": "https://play5e.net/spells/plane-shift"
+    },
+    {
+      "position": 299,
+      "name": "Prismatic Spray",
+      "url": "https://play5e.net/spells/prismatic-spray"
+    },
+    {
+      "position": 300,
+      "name": "Project Image",
+      "url": "https://play5e.net/spells/project-image"
+    },
+    {
+      "position": 301,
+      "name": "Regenerate",
+      "url": "https://play5e.net/spells/regenerate"
+    },
+    {
+      "position": 302,
+      "name": "Resurrection",
+      "url": "https://play5e.net/spells/resurrection"
+    },
+    {
+      "position": 303,
+      "name": "Reverse Gravity",
+      "url": "https://play5e.net/spells/reverse-gravity"
+    },
+    {
+      "position": 304,
+      "name": "Sequester",
+      "url": "https://play5e.net/spells/sequester"
+    },
+    {
+      "position": 305,
+      "name": "Simulacrum",
+      "url": "https://play5e.net/spells/simulacrum"
+    },
+    {
+      "position": 306,
+      "name": "Symbol",
+      "url": "https://play5e.net/spells/symbol"
+    },
+    {
+      "position": 307,
+      "name": "Teleport",
+      "url": "https://play5e.net/spells/teleport"
+    },
+    {
+      "position": 308,
+      "name": "Animal Shapes",
+      "url": "https://play5e.net/spells/animal-shapes"
+    },
+    {
+      "position": 309,
+      "name": "Antimagic Field",
+      "url": "https://play5e.net/spells/antimagic-field"
+    },
+    {
+      "position": 310,
+      "name": "Antipathy/Sympathy",
+      "url": "https://play5e.net/spells/antipathy-sympathy"
+    },
+    {
+      "position": 311,
+      "name": "Befuddlement",
+      "url": "https://play5e.net/spells/befuddlement"
+    },
+    {
+      "position": 312,
+      "name": "Clone",
+      "url": "https://play5e.net/spells/clone"
+    },
+    {
+      "position": 313,
+      "name": "Control Weather",
+      "url": "https://play5e.net/spells/control-weather"
+    },
+    {
+      "position": 314,
+      "name": "Demiplane",
+      "url": "https://play5e.net/spells/demiplane"
+    },
+    {
+      "position": 315,
+      "name": "Dominate Monster",
+      "url": "https://play5e.net/spells/dominate-monster"
+    },
+    {
+      "position": 316,
+      "name": "Earthquake",
+      "url": "https://play5e.net/spells/earthquake"
+    },
+    {
+      "position": 317,
+      "name": "Feeblemind",
+      "url": "https://play5e.net/spells/feeblemind"
+    },
+    {
+      "position": 318,
+      "name": "Glibness",
+      "url": "https://play5e.net/spells/glibness"
+    },
+    {
+      "position": 319,
+      "name": "Holy Aura",
+      "url": "https://play5e.net/spells/holy-aura"
+    },
+    {
+      "position": 320,
+      "name": "Incendiary Cloud",
+      "url": "https://play5e.net/spells/incendiary-cloud"
+    },
+    {
+      "position": 321,
+      "name": "Maze",
+      "url": "https://play5e.net/spells/maze"
+    },
+    {
+      "position": 322,
+      "name": "Mind Blank",
+      "url": "https://play5e.net/spells/mind-blank"
+    },
+    {
+      "position": 323,
+      "name": "Power Word Stun",
+      "url": "https://play5e.net/spells/power-word-stun"
+    },
+    {
+      "position": 324,
+      "name": "Sunburst",
+      "url": "https://play5e.net/spells/sunburst"
+    },
+    {
+      "position": 325,
+      "name": "Tsunami",
+      "url": "https://play5e.net/spells/tsunami"
+    },
+    {
+      "position": 326,
+      "name": "Astral Projection",
+      "url": "https://play5e.net/spells/astral-projection"
+    },
+    {
+      "position": 327,
+      "name": "Foresight",
+      "url": "https://play5e.net/spells/foresight"
+    },
+    {
+      "position": 328,
+      "name": "Gate",
+      "url": "https://play5e.net/spells/gate"
+    },
+    {
+      "position": 329,
+      "name": "Imprisonment",
+      "url": "https://play5e.net/spells/imprisonment"
+    },
+    {
+      "position": 330,
+      "name": "Mass Heal",
+      "url": "https://play5e.net/spells/mass-heal"
+    },
+    {
+      "position": 331,
+      "name": "Meteor Swarm",
+      "url": "https://play5e.net/spells/meteor-swarm"
+    },
+    {
+      "position": 332,
+      "name": "Power Word Heal",
+      "url": "https://play5e.net/spells/power-word-heal"
+    },
+    {
+      "position": 333,
+      "name": "Power Word Kill",
+      "url": "https://play5e.net/spells/power-word-kill"
+    },
+    {
+      "position": 334,
+      "name": "Prismatic Wall",
+      "url": "https://play5e.net/spells/prismatic-wall"
+    },
+    {
+      "position": 335,
+      "name": "Shapechange",
+      "url": "https://play5e.net/spells/shapechange"
+    },
+    {
+      "position": 336,
+      "name": "Storm of Vengeance",
+      "url": "https://play5e.net/spells/storm-of-vengeance"
+    },
+    {
+      "position": 337,
+      "name": "Time Stop",
+      "url": "https://play5e.net/spells/time-stop"
+    },
+    {
+      "position": 338,
+      "name": "True Polymorph",
+      "url": "https://play5e.net/spells/true-polymorph"
+    },
+    {
+      "position": 339,
+      "name": "True Resurrection",
+      "url": "https://play5e.net/spells/true-resurrection"
+    },
+    {
+      "position": 340,
+      "name": "Weird",
+      "url": "https://play5e.net/spells/weird"
+    },
+    {
+      "position": 341,
+      "name": "Wish",
+      "url": "https://play5e.net/spells/wish"
+    }
+  ]
+}

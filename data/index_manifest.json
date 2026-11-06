@@ -1,0 +1,22 @@
+{
+  "source_archive": "owlbear-toolkit-scrapling-1.zip",
+  "crawl_timestamp": "20261106T134306Z",
+  "indexes": {
+    "monsters": {
+      "count": 351,
+      "urls": 351
+    },
+    "spells": {
+      "count": 341,
+      "urls": 341
+    },
+    "magic_items": {
+      "count": 259,
+      "urls": 259
+    }
+  },
+  "notes": [
+    "Indexes parsed from public JSON-LD ItemList in the supplied raw HTML.",
+    "These are name/URL discovery records, not full detail records or permission to redistribute source content."
+  ]
+}
