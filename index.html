@@ -4,164 +4,55 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="theme-color" content="#101318" />
-  <meta name="description" content="A modular D&D table companion for Owlbear Rodeo and standalone play." />
-  <title>Tablekeep — Owlbear DM Toolkit</title>
+  <meta name="description" content="Tablekeep — a player-first D&D character studio, homebrew workshop, and tabletop companion." />
+  <title>Tablekeep — Character & Homebrew Studio</title>
   <link rel="icon" href="./icon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="./css/app.css" />
+  <link rel="stylesheet" href="./assets/app.css" />
 </head>
 <body>
   <div class="app-shell">
     <aside class="sidebar" id="sidebar">
-      <div class="brand-lockup">
-        <div class="brand-mark"><span>✦</span></div>
-        <div class="brand-copy"><strong>TABLEKEEP</strong><small>DM TOOLKIT</small></div>
-        <button class="icon-button mobile-close" id="closeSidebar" aria-label="Close navigation">×</button>
-      </div>
-
-      <div class="workspace-pill"><span class="live-dot"></span><span id="workspaceLabel">Standalone workspace</span><span class="pill-chevron">⌄</span></div>
-
+      <a class="brand-lockup" href="#home" aria-label="Tablekeep home">
+        <span class="brand-mark">✦</span>
+        <span class="brand-copy"><strong>TABLEKEEP</strong><small>CHARACTER STUDIO</small></span>
+      </a>
+      <div class="workspace-pill"><span class="live-dot"></span><span id="workspaceLabel">Personal workspace</span><span class="pill-chevron">⌄</span></div>
       <nav class="main-nav" aria-label="Main navigation">
-        <div class="nav-caption">WORKSPACE</div>
-        <button class="nav-item active" data-page="overview"><span class="nav-icon">◫</span><span>Overview</span><kbd>01</kbd></button>
-        <button class="nav-item" data-page="combat"><span class="nav-icon">⚔</span><span>Combat tracker</span><kbd>02</kbd></button>
-        <button class="nav-item" data-page="encounters"><span class="nav-icon">✣</span><span>Encounters</span><kbd>03</kbd></button>
-        <button class="nav-item" data-page="characters"><span class="nav-icon">♙</span><span>Characters</span><kbd>04</kbd></button>
-
-        <div class="nav-caption nav-caption-spaced">REFERENCE LIBRARY</div>
-        <button class="nav-item" data-page="bestiary"><span class="nav-icon">♜</span><span>Bestiary</span><span class="nav-count" id="navMonsterCount">351</span></button>
-        <button class="nav-item" data-page="spells"><span class="nav-icon">✧</span><span>Spellbook</span><span class="nav-count" id="navSpellCount">341</span></button>
-        <button class="nav-item" data-page="items"><span class="nav-icon">◇</span><span>Magic items</span><span class="nav-count" id="navItemCount">259</span></button>
-
-        <div class="nav-caption nav-caption-spaced">SESSION</div>
-        <button class="nav-item" data-page="notes"><span class="nav-icon">▤</span><span>Session notes</span></button>
+        <div class="nav-caption">PLAYER STUDIO</div>
+        <button class="nav-item active" data-page="home"><span class="nav-icon">⌂</span><span>Home</span><kbd>01</kbd></button>
+        <button class="nav-item" data-page="characters"><span class="nav-icon">♙</span><span>My characters</span><span class="nav-count" id="characterCount">0</span></button>
+        <button class="nav-item" data-page="builder"><span class="nav-icon">✧</span><span>Character builder</span></button>
+        <button class="nav-item" data-page="sheet"><span class="nav-icon">▤</span><span>Character sheet</span></button>
+        <div class="nav-caption nav-caption-spaced">CREATE & EXPLORE</div>
+        <button class="nav-item" data-page="homebrew"><span class="nav-icon">⚗</span><span>Homebrew studio</span><span class="nav-count" id="homebrewCount">0</span></button>
+        <button class="nav-item" data-page="library"><span class="nav-icon">◈</span><span>Content library</span></button>
+        <div class="nav-caption nav-caption-spaced">AT THE TABLE</div>
+        <button class="nav-item" data-page="table"><span class="nav-icon">⚔</span><span>DM toolkit</span></button>
         <button class="nav-item" data-page="dice"><span class="nav-icon">⚄</span><span>Dice roller</span></button>
-        <button class="nav-item" data-page="settings"><span class="nav-icon">⚙</span><span>Settings</span></button>
+        <button class="nav-item" data-page="settings"><span class="nav-icon">⚙</span><span>Settings & data</span></button>
       </nav>
-
       <div class="sidebar-bottom">
-        <div class="build-card">
-          <div class="build-card-top"><span class="build-spark">✦</span><span>FIELD NOTES</span><span class="build-tag">V0.2</span></div>
-          <strong>Your table, your rules.</strong>
-          <p>A flexible toolkit. Turn modules on or off as your table evolves.</p>
-        </div>
-        <div class="profile-row"><div class="avatar avatar-gold">DM</div><div class="profile-copy"><strong>Game Master</strong><small id="profileMode">Local profile</small></div><button class="more-button" aria-label="Profile options">•••</button></div>
+        <div class="build-card"><div class="build-card-top"><span>✦</span><span>YOUR WORLD</span><span class="build-tag">0.3</span></div><strong>Make the rules yours.</strong><p>Build characters, shape homebrew, and bring your table together.</p></div>
+        <div class="profile-row"><div class="avatar avatar-gold">TK</div><div class="profile-copy"><strong>Local profile</strong><small id="profileMode">Saved in this browser</small></div></div>
       </div>
     </aside>
-
     <main class="main-area">
       <header class="topbar">
-        <div class="topbar-left">
-          <button class="icon-button menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
-          <div class="breadcrumb"><span>TABLEKEEP</span><i>/</i><strong id="breadcrumbCurrent">Overview</strong></div>
-        </div>
+        <div class="topbar-left"><button class="icon-button menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button><div class="breadcrumb"><span>TABLEKEEP</span><i>/</i><strong id="breadcrumbCurrent">Home</strong></div></div>
         <div class="topbar-right">
-          <label class="global-search"><span>⌕</span><input id="globalSearch" type="search" placeholder="Search the compendium…" autocomplete="off" /><kbd>⌘ K</kbd></label>
+          <label class="global-search"><span>⌕</span><input id="globalSearch" type="search" placeholder="Search classes, spells, feats…" autocomplete="off" /><kbd>⌘ K</kbd></label>
+          <div class="edition-switch"><span>RULESET</span><select id="globalEdition" aria-label="Rules edition"><option value="2014">2014</option><option value="2024">2024</option></select></div>
           <div class="connection-pill" id="connectionPill"><span class="connection-dot"></span><span id="connectionText">Standalone</span></div>
-          <button class="topbar-avatar" title="Game Master profile">DM</button>
         </div>
       </header>
-
-      <div class="page-wrap" id="pageRoot" aria-live="polite">
-        <section class="page-view" data-view="overview">
-          <div class="page-heading heading-with-actions">
-            <div><div class="eyebrow"><span class="eyebrow-line"></span> YOUR ADVENTURE HUB</div><h1>Your table, <em>under control.</em></h1><p class="page-subtitle">A calm command centre for everything happening at your table.</p></div>
-            <div class="heading-actions"><button class="button button-quiet" data-action="open-notes">＋ Quick note</button><button class="button button-primary" data-page-link="combat">Enter combat <span>↗</span></button></div>
-          </div>
-
-          <div class="hero-panel">
-            <div class="hero-text"><div class="hero-kicker"><span class="hero-kicker-dot"></span> CURRENT CAMPAIGN <span class="hero-separator">•</span> DEMO DATA</div><h2>The Ashen Crown</h2><p>A kingdom on the edge of a forgotten prophecy. Keep the story moving, one decision at a time.</p><div class="hero-meta"><span>◷ Session 04</span><span>♙ 4 adventurers</span><span>⌖ The Shattered Coast</span></div></div>
-            <div class="hero-art" aria-hidden="true"><div class="moon"></div><div class="hero-ring ring-one"></div><div class="hero-ring ring-two"></div><div class="hero-mountain mountain-back"></div><div class="hero-mountain mountain-front"></div><div class="hero-tower">♜</div><div class="hero-art-label">CHAPTER IV <b>—</b> THE LONG NIGHT</div></div>
-          </div>
-
-          <div class="metric-grid">
-            <article class="metric-card"><div class="metric-top"><span>COMBATANTS</span><span class="metric-icon icon-red">⚔</span></div><div class="metric-value" id="metricCombatants">4</div><div class="metric-foot"><span class="metric-bullet"></span> In the current encounter</div></article>
-            <article class="metric-card"><div class="metric-top"><span>MONSTERS</span><span class="metric-icon icon-violet">♜</span></div><div class="metric-value" id="metricMonsters">351</div><div class="metric-foot">Indexed in bestiary <span class="metric-arrow">↗</span></div></article>
-            <article class="metric-card"><div class="metric-top"><span>SPELLS</span><span class="metric-icon icon-blue">✧</span></div><div class="metric-value" id="metricSpells">341</div><div class="metric-foot">Across the spellbook</div></article>
-            <article class="metric-card"><div class="metric-top"><span>MAGIC ITEMS</span><span class="metric-icon icon-gold">◇</span></div><div class="metric-value" id="metricItems">259</div><div class="metric-foot">Waiting to be discovered</div></article>
-          </div>
-
-          <div class="content-grid overview-grid">
-            <section class="panel initiative-panel">
-              <div class="panel-heading"><div><div class="eyebrow">ON THE BATTLEFIELD</div><h3>Initiative order</h3></div><button class="text-button" data-page-link="combat">Open tracker ↗</button></div>
-              <div class="mini-turn-banner"><span class="turn-pulse"></span><div><small>UP NEXT</small><strong id="nextTurnName">Mira Thornwood</strong></div><span class="turn-initiative" id="nextTurnInit">18</span></div>
-              <div class="mini-initiative-list" id="miniInitiativeList"></div>
-              <div class="panel-footer"><span id="roundSummary">Round 2 · 4 combatants</span><button class="subtle-link" data-page-link="combat">Manage turn <span>→</span></button></div>
-            </section>
-            <section class="panel prep-panel">
-              <div class="panel-heading"><div><div class="eyebrow">STAY ONE STEP AHEAD</div><h3>At a glance</h3></div><span class="panel-icon">✦</span></div>
-              <div class="prep-list">
-                <button class="prep-row" data-page-link="bestiary"><span class="prep-icon prep-purple">♜</span><span><strong>Find a creature</strong><small>Browse 351 indexed monsters</small></span><b>↗</b></button>
-                <button class="prep-row" data-page-link="spells"><span class="prep-icon prep-blue">✧</span><span><strong>Look up a spell</strong><small>Search the 341 spell index</small></span><b>↗</b></button>
-                <button class="prep-row" data-page-link="encounters"><span class="prep-icon prep-gold">✣</span><span><strong>Build an encounter</strong><small>Prepare your next challenge</small></span><b>↗</b></button>
-                <button class="prep-row" data-page-link="dice"><span class="prep-icon prep-red">⚄</span><span><strong>Roll the dice</strong><small>Make a check or save</small></span><b>↗</b></button>
-              </div>
-              <div class="prep-note"><span>✧</span><p>Reference entries currently contain names and source links. Full stat blocks are a planned data-import step.</p></div>
-            </section>
-          </div>
-          <div class="bottom-note"><span class="note-star">✦</span><span><strong>Built for the flow of play.</strong> Your notes and standalone demo data stay in this browser until you connect a shared storage layer.</span><button data-page-link="settings">Storage details ↗</button></div>
-        </section>
-
-        <section class="page-view hidden" data-view="combat">
-          <div class="page-heading heading-with-actions"><div><div class="eyebrow"><span class="eyebrow-line"></span> ENCOUNTER CONTROL</div><h1>Combat <em>tracker.</em></h1><p class="page-subtitle">Keep initiative, hit points, and conditions in one place.</p></div><div class="heading-actions"><button class="button button-quiet" id="syncTokensButton">↻ Sync Owlbear tokens</button><button class="button button-primary" id="nextTurnButton">Next turn <span>→</span></button></div></div>
-          <div class="combat-toolbar"><div class="round-control"><span class="toolbar-label">CURRENT ROUND</span><button class="round-button" id="roundDown">−</button><strong id="roundNumber">2</strong><button class="round-button" id="roundUp">＋</button></div><div class="combat-toolbar-right"><span class="combat-live"><i></i> ENCOUNTER ACTIVE</span><button class="button button-outline" id="addCombatantButton">＋ Add combatant</button><button class="button button-danger-quiet" id="resetCombatButton">Reset</button></div></div>
-          <div class="panel combat-table-panel"><div class="combat-table-head"><span>INITIATIVE</span><span>NAME / TYPE</span><span>HIT POINTS</span><span>CONDITIONS</span><span></span></div><div id="combatantList" class="combatant-list"></div><div class="combat-table-footer"><span id="combatFooterCount">4 combatants in initiative</span><span class="sync-footnote" id="combatSyncFootnote">Local demo encounter</span></div></div>
-          <div class="combat-tip"><span>✦</span><div><strong>Owlbear sync is ready to connect.</strong><p>When this page is installed in a room, use “Sync Owlbear tokens” to import Character-layer tokens. Initiative and HP metadata can then be shared through the scene.</p></div></div>
-        </section>
-
-        <section class="page-view hidden" data-view="bestiary">
-          <div class="page-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> CREATURE COMPENDIUM</div><h1>The <em>bestiary.</em></h1><p class="page-subtitle">Find the right creature for the story you are telling.</p></div></div>
-          <div class="catalog-toolbar"><div class="catalog-search"><span>⌕</span><input id="monsterSearch" type="search" placeholder="Search monsters by name…" /></div><span class="result-count" id="monsterCountLabel">351 indexed records</span></div>
-          <div class="catalog-layout"><div class="catalog-list-panel panel"><div class="catalog-list-heading"><span>CREATURE INDEX</span><span>SOURCE</span></div><div class="catalog-list" id="monsterCatalog"></div><div class="catalog-pagination" id="monsterPagination"></div></div><aside class="catalog-aside panel"><div class="aside-emblem">♜</div><div class="eyebrow">FIELD GUIDE</div><h3>Know what lurks beyond the light.</h3><p>This catalogue is an index of creature names and public source links from your first scrape. Stat blocks, CR, AC, HP, and actions have not been extracted yet.</p><div class="aside-stats"><div><strong>351</strong><small>CREATURE LINKS</small></div><div><strong>0</strong><small>FULL STAT BLOCKS</small></div></div><a href="https://play5e.net/monsters" target="_blank" rel="noreferrer" class="button button-outline button-full">Open source catalogue ↗</a></aside></div>
-        </section>
-
-        <section class="page-view hidden" data-view="spells">
-          <div class="page-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> ARCANE REFERENCE</div><h1>The <em>spellbook.</em></h1><p class="page-subtitle">A searchable index for the magic at your table.</p></div></div>
-          <div class="catalog-toolbar"><div class="catalog-search"><span>⌕</span><input id="spellSearch" type="search" placeholder="Search spells by name…" /></div><span class="result-count" id="spellCountLabel">341 indexed records</span></div>
-          <div class="catalog-layout"><div class="catalog-list-panel panel"><div class="catalog-list-heading"><span>SPELL INDEX</span><span>SOURCE</span></div><div class="catalog-list" id="spellCatalog"></div><div class="catalog-pagination" id="spellPagination"></div></div><aside class="catalog-aside panel arcane-aside"><div class="aside-emblem">✧</div><div class="eyebrow">ARCANE ARCHIVE</div><h3>Every word has a cost. Every spell, a purpose.</h3><p>This first pass stores spell names and source URLs only. Spell level, school, components, range, and descriptions await detail extraction.</p><div class="aside-stats"><div><strong>341</strong><small>SPELL LINKS</small></div><div><strong>0</strong><small>FULL ENTRIES</small></div></div><a href="https://play5e.net/spells" target="_blank" rel="noreferrer" class="button button-outline button-full">Open source spellbook ↗</a></aside></div>
-        </section>
-
-        <section class="page-view hidden" data-view="items">
-          <div class="page-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> TREASURE VAULT</div><h1>Magic <em>items.</em></h1><p class="page-subtitle">A growing index of enchanted gear and curious relics.</p></div></div>
-          <div class="catalog-toolbar"><div class="catalog-search"><span>⌕</span><input id="itemSearch" type="search" placeholder="Search magic items by name…" /></div><span class="result-count" id="itemCountLabel">259 indexed records</span></div>
-          <div class="catalog-layout"><div class="catalog-list-panel panel"><div class="catalog-list-heading"><span>ITEM INDEX</span><span>SOURCE</span></div><div class="catalog-list" id="itemCatalog"></div><div class="catalog-pagination" id="itemPagination"></div></div><aside class="catalog-aside treasure-aside panel"><div class="aside-emblem">◇</div><div class="eyebrow">THE TREASURE VAULT</div><h3>Some things are better left undiscovered.</h3><p>Only index names and source links are loaded. Rarity, attunement, properties, and descriptions are not yet in the local dataset.</p><div class="aside-stats"><div><strong>259</strong><small>ITEM LINKS</small></div><div><strong>0</strong><small>FULL ENTRIES</small></div></div><a href="https://play5e.net/magic-items" target="_blank" rel="noreferrer" class="button button-outline button-full">Open source vault ↗</a></aside></div>
-        </section>
-
-        <section class="page-view hidden" data-view="characters">
-          <div class="page-heading heading-with-actions"><div><div class="eyebrow"><span class="eyebrow-line"></span> THE PARTY</div><h1>Your <em>characters.</em></h1><p class="page-subtitle">Keep the party roster close at hand. Demo characters are editable locally.</p></div><div class="heading-actions"><button class="button button-primary" id="addCharacterButton">＋ New character</button></div></div>
-          <div id="characterGrid" class="character-grid"></div>
-          <div class="character-footnote">Character sheets are a UI prototype. They are stored in the current browser in standalone mode; multiplayer sync and full character-builder rules are future work.</div>
-        </section>
-
-        <section class="page-view hidden" data-view="encounters">
-          <div class="page-heading heading-with-actions"><div><div class="eyebrow"><span class="eyebrow-line"></span> PREPARE THE CHALLENGE</div><h1>Encounter <em>forge.</em></h1><p class="page-subtitle">Collect creatures, save the setup, and bring it to the table.</p></div><div class="heading-actions"><button class="button button-primary" id="newEncounterButton">＋ New encounter</button></div></div>
-          <div class="encounter-layout"><section class="panel encounter-builder"><div class="panel-heading"><div><div class="eyebrow">CURRENT BUILD</div><h3 id="currentEncounterName">Untitled encounter</h3></div><span class="draft-pill">DRAFT</span></div><div class="encounter-add-row"><div class="catalog-search compact-search"><span>⌕</span><input id="encounterMonsterSearch" type="search" placeholder="Find a monster to add…" /></div><button class="button button-outline" id="addEncounterCreature">Add</button></div><div id="encounterBuildList" class="encounter-build-list"><div class="empty-state">Your encounter is empty. Search for a creature above to begin.</div></div><div class="encounter-builder-footer"><button class="button button-quiet" id="clearEncounterButton">Clear build</button><button class="button button-primary" id="saveEncounterButton">Save encounter →</button></div></section><aside class="panel saved-encounters"><div class="panel-heading"><div><div class="eyebrow">YOUR LIBRARY</div><h3>Saved encounters</h3></div><span class="saved-count" id="savedEncounterCount">1</span></div><div id="savedEncounterList"></div></aside></div>
-        </section>
-
-        <section class="page-view hidden" data-view="notes">
-          <div class="page-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> CAMPAIGN JOURNAL</div><h1>Session <em>notes.</em></h1><p class="page-subtitle">Capture names, clues, promises, and the things your players will absolutely forget.</p></div></div>
-          <div class="notes-layout"><aside class="panel notes-side"><div class="eyebrow">NOTEBOOK</div><button class="note-tab active"><span>▤</span> Session 04 — The Shattered Coast <i>●</i></button><div class="notes-side-tip">Notes are saved automatically in this browser. They are not uploaded to a server.</div></aside><section class="panel notes-editor"><div class="notes-editor-head"><span class="saved-indicator" id="notesSavedState"><i></i> SAVED LOCALLY</span><span>LAST EDITED JUST NOW</span></div><input id="notesTitle" class="notes-title-input" value="Session 04 — The Shattered Coast" aria-label="Note title" /><textarea id="notesBody" spellcheck="true" placeholder="The party reaches the old lighthouse…\n\n• The keeper knows more than he admits\n• A blue flame flickers below the cliffs\n• Remember to ask about the missing signet\n\nWrite your session notes here."></textarea><div class="notes-editor-foot"><span>✦ <strong>GM reminder:</strong> Leave room for the unexpected.</span><span id="notesWordCount">0 words</span></div></section></div>
-        </section>
-
-        <section class="page-view hidden" data-view="dice">
-          <div class="page-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> FATE IN YOUR HANDS</div><h1>Dice <em>roller.</em></h1><p class="page-subtitle">A little chance can change everything.</p></div></div>
-          <div class="dice-layout"><section class="panel dice-stage"><div class="eyebrow">ROLL A CHECK</div><div class="dice-big-result" id="diceBigResult">—</div><div class="dice-expression-row"><input id="diceExpression" value="1d20+5" aria-label="Dice expression" /><button class="button button-primary" id="rollDiceButton">Roll dice <span>⚄</span></button></div><div class="dice-quick-picks"><button data-roll="1d4">d4</button><button data-roll="1d6">d6</button><button data-roll="1d8">d8</button><button data-roll="1d10">d10</button><button data-roll="1d12">d12</button><button data-roll="1d20">d20</button><button data-roll="1d100">d100</button></div><div class="dice-last-roll" id="diceLastRoll">Enter a dice expression such as 2d20+3 or 4d6.</div></section><aside class="panel dice-history"><div class="panel-heading"><div><div class="eyebrow">THE RECORD</div><h3>Roll history</h3></div><button class="text-button" id="clearDiceHistory">Clear</button></div><div id="diceHistoryList" class="dice-history-list"><div class="empty-state">Your rolls will appear here.</div></div></aside></div>
-        </section>
-
-        <section class="page-view hidden" data-view="settings">
-          <div class="page-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> PERSONALISE YOUR TABLE</div><h1>Toolkit <em>settings.</em></h1><p class="page-subtitle">Choose how this companion behaves in your workspace.</p></div></div>
-          <div class="settings-grid"><section class="panel settings-panel"><div class="panel-heading"><div><div class="eyebrow">CONNECTION</div><h3>Runtime environment</h3></div><span class="settings-status" id="runtimeStatus">STANDALONE</span></div><div class="settings-row"><div><strong>Owlbear Rodeo SDK</strong><small id="sdkDescription">The app is open as a standalone website.</small></div><span id="sdkStatusIcon" class="status-check">○</span></div><div class="settings-row"><div><strong>Room metadata</strong><small id="roomDescription">Not connected. Local browser storage is active.</small></div><span class="status-muted">LOCAL</span></div><div class="settings-row"><div><strong>Scene tokens</strong><small id="sceneDescription">Connect from an Owlbear room to read Character-layer tokens.</small></div><button class="button button-outline button-small" id="settingsSyncButton">Try sync</button></div></section>
-          <section class="panel settings-panel"><div class="panel-heading"><div><div class="eyebrow">MODULES</div><h3>Feature switches</h3></div><span class="settings-status">PROTOTYPE</span></div><div class="feature-switch-row"><div><strong>Bestiary</strong><small>Monster name and source index</small></div><label class="switch"><input type="checkbox" checked disabled /><span></span></label></div><div class="feature-switch-row"><div><strong>Spellbook</strong><small>Spell name and source index</small></div><label class="switch"><input type="checkbox" checked disabled /><span></span></label></div><div class="feature-switch-row"><div><strong>Magic items</strong><small>Item name and source index</small></div><label class="switch"><input type="checkbox" checked disabled /><span></span></label></div><div class="feature-switch-row"><div><strong>Character builder</strong><small>Full rules and class features — planned</small></div><label class="switch"><input type="checkbox" disabled /><span></span></label></div></section>
-          <section class="panel settings-panel data-settings"><div class="panel-heading"><div><div class="eyebrow">DATA & PRIVACY</div><h3>Local workspace data</h3></div><span class="settings-status">ON DEVICE</span></div><p>Standalone notes, demo characters, combat order, and encounter drafts are stored in this browser. The public catalog index contains creature, spell, and item names with source URLs only.</p><div class="settings-actions"><button class="button button-outline" id="exportDataButton">Export local data</button><button class="button button-danger-quiet" id="resetDataButton">Reset demo data</button></div></section>
-          <section class="panel settings-panel about-settings"><div class="eyebrow">ABOUT THIS BUILD</div><h3>Tablekeep <span>v0.2.0</span></h3><p>Dual-mode UI prototype for Owlbear Rodeo and standalone GitHub Pages. Full stat blocks, rules automation, character-builder logic, and encounter balancing are not included yet.</p><a href="https://docs.owlbear.rodeo/extensions/getting-started/" target="_blank" rel="noreferrer">Owlbear extension documentation ↗</a></section></div>
-        </section>
-      </div>
-      <footer class="app-footer"><span>TABLEKEEP <i>•</i> DM TOOLKIT</span><span>AN EARLY BUILD FOR THE NEXT GREAT STORY</span></footer>
+      <div class="page-wrap" id="pageRoot" aria-live="polite"></div>
+      <footer class="app-footer"><span>TABLEKEEP <i>•</i> CHARACTER & HOMEBREW STUDIO</span><span>YOUR ADVENTURE. YOUR CREATION.</span></footer>
     </main>
   </div>
   <div class="mobile-scrim" id="mobileScrim"></div>
-  <dialog id="detailDialog" class="detail-dialog"><form method="dialog"><button class="dialog-close" aria-label="Close dialog">×</button></form><div id="detailDialogContent"></div></dialog>
-  <dialog id="formDialog" class="detail-dialog form-dialog"><form method="dialog"><button class="dialog-close" aria-label="Close dialog">×</button></form><div id="formDialogContent"></div></dialog>
+  <dialog id="detailDialog" class="detail-dialog"><form method="dialog"><button class="dialog-close" aria-label="Close">×</button></form><div id="detailDialogContent"></div></dialog>
+  <dialog id="formDialog" class="detail-dialog wide-dialog"><form method="dialog"><button class="dialog-close" aria-label="Close">×</button></form><div id="formDialogContent"></div></dialog>
   <div class="toast-region" id="toastRegion" aria-live="polite"></div>
-  <script type="module" src="./js/app.js"></script>
+  <script type="module" src="./assets/app.js"></script>
 </body>
 </html>

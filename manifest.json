@@ -1,16 +1,16 @@
 {
-  "name": "Tablekeep — DM Toolkit",
-  "version": "0.2.0",
+  "name": "Tablekeep — Character & Homebrew Studio",
+  "version": "0.3.0",
   "manifest_version": 1,
-  "description": "Dual-mode D&D DM toolkit for Owlbear Rodeo and standalone web use.",
+  "description": "Player-first D&D character builder, homebrew studio, content library, and tabletop tools.",
   "author": "Tablekeep Community Build",
-  "homepage_url": "https://YOUR-USERNAME.github.io/owlbear-dm-toolkit/",
-  "icon": "https://YOUR-USERNAME.github.io/owlbear-dm-toolkit/icon.svg",
+  "homepage_url": "https://YOUR-USERNAME.github.io/YOUR-REPO/",
+  "icon": "https://YOUR-USERNAME.github.io/YOUR-REPO/icon.svg",
   "action": {
     "title": "Tablekeep",
-    "icon": "https://YOUR-USERNAME.github.io/owlbear-dm-toolkit/icon.svg",
-    "popover": "https://YOUR-USERNAME.github.io/owlbear-dm-toolkit/index.html?mode=owlbear",
-    "width": 760,
+    "icon": "https://YOUR-USERNAME.github.io/YOUR-REPO/icon.svg",
+    "popover": "https://YOUR-USERNAME.github.io/YOUR-REPO/index.html?mode=owlbear",
+    "width": 900,
     "height": 760
   }
 }

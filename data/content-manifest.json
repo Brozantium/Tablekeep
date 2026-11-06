@@ -1,0 +1,192 @@
+{
+  "description": "Inventory of supplied JSON content; file contents are kept unchanged.",
+  "editions": {
+    "2014": {
+      "backgrounds.json": {
+        "records": 96,
+        "bytes": 477224,
+        "sha256": "73800f91e0c00d83dfd3ee2cea400e938cf9a2279944a84c0c95f50cb556e1bb"
+      },
+      "classes.json": {
+        "records": 13,
+        "bytes": 973588,
+        "sha256": "b00e9dae41f8a9aec4ac376a599d73826bf2a18ba716ff842170bf6f5cbd83ba"
+      },
+      "feats.json": {
+        "records": 110,
+        "bytes": 96915,
+        "sha256": "ffef0a7faf8fd0df71de31bacb1231810753731f969dff01f231137377b62363"
+      },
+      "items.json": {
+        "records": 227,
+        "bytes": 68545,
+        "sha256": "34be06d61c4d8ee92a259a085e101c18b17cdf55e0df020f0b74bd7cbc2392c7"
+      },
+      "magicitems.json": {
+        "records": 777,
+        "bytes": 984899,
+        "sha256": "79067d0b904463429b444d96afcf9cb92259de53eb7da1ac20d9d11f2a6c6995"
+      },
+      "races.json": {
+        "records": 143,
+        "bytes": 463703,
+        "sha256": "7b70d3708a83aa74e696f757944fd0f86965b206ec17d3b4495f281ca449c94f"
+      },
+      "spells.json": {
+        "records": 509,
+        "bytes": 671506,
+        "sha256": "eb2a947023e5ebaec520721145b841bdee81f4318d2cf92468cf640b0e72ad69"
+      }
+    },
+    "2024": {
+      "backgrounds.json": {
+        "records": 71,
+        "bytes": 177078,
+        "sha256": "2b2efabf99799a8ab574ee5d8613dd7c58c81d60178d039576a4320143ceef0c"
+      },
+      "classes.json": {
+        "records": 13,
+        "bytes": 623096,
+        "sha256": "378f28666f0803f850b6cb8db4b38923d6745f62a86310b8f63c08125331d217"
+      },
+      "feats.json": {
+        "records": 205,
+        "bytes": 193187,
+        "sha256": "a53d4559b1e6cf62bd898167a1f1952c3a868dc5a8701d27b136a38f8250d3b0"
+      },
+      "items.json": {
+        "records": 242,
+        "bytes": 91089,
+        "sha256": "314787cd39ca540f4b1b57f99991cf3cc26aa34eb7b6983ed1305ad404c6b778"
+      },
+      "magicitems.json": {
+        "records": 462,
+        "bytes": 472481,
+        "sha256": "09eb8e1e72505c56b9ed4930a39189491af517a314a859eeb09db9798122a1f5"
+      },
+      "masteries.json": {
+        "records": 8,
+        "bytes": 2283,
+        "sha256": "76486e8a22440c4e27839a29c77f4d35bbbe6cb888281c83d8564753c5d49a7c"
+      },
+      "races.json": {
+        "records": 25,
+        "bytes": 68197,
+        "sha256": "3af0977b2491efd04ae75f6be605eb158416cccbcea7ae9e1277972e97cd2321"
+      },
+      "spells.json": {
+        "records": 456,
+        "bytes": 542665,
+        "sha256": "16880ccb4c33042d445b031ee3bf3725c1120495f00d2a29f55b7b8046ec2377"
+      }
+    }
+  },
+  "files": [
+    {
+      "edition": "2014",
+      "file": "backgrounds.json",
+      "records": 96,
+      "bytes": 477224,
+      "sha256": "73800f91e0c00d83dfd3ee2cea400e938cf9a2279944a84c0c95f50cb556e1bb"
+    },
+    {
+      "edition": "2014",
+      "file": "classes.json",
+      "records": 13,
+      "bytes": 973588,
+      "sha256": "b00e9dae41f8a9aec4ac376a599d73826bf2a18ba716ff842170bf6f5cbd83ba"
+    },
+    {
+      "edition": "2014",
+      "file": "feats.json",
+      "records": 110,
+      "bytes": 96915,
+      "sha256": "ffef0a7faf8fd0df71de31bacb1231810753731f969dff01f231137377b62363"
+    },
+    {
+      "edition": "2014",
+      "file": "items.json",
+      "records": 227,
+      "bytes": 68545,
+      "sha256": "34be06d61c4d8ee92a259a085e101c18b17cdf55e0df020f0b74bd7cbc2392c7"
+    },
+    {
+      "edition": "2014",
+      "file": "magicitems.json",
+      "records": 777,
+      "bytes": 984899,
+      "sha256": "79067d0b904463429b444d96afcf9cb92259de53eb7da1ac20d9d11f2a6c6995"
+    },
+    {
+      "edition": "2014",
+      "file": "races.json",
+      "records": 143,
+      "bytes": 463703,
+      "sha256": "7b70d3708a83aa74e696f757944fd0f86965b206ec17d3b4495f281ca449c94f"
+    },
+    {
+      "edition": "2014",
+      "file": "spells.json",
+      "records": 509,
+      "bytes": 671506,
+      "sha256": "eb2a947023e5ebaec520721145b841bdee81f4318d2cf92468cf640b0e72ad69"
+    },
+    {
+      "edition": "2024",
+      "file": "backgrounds.json",
+      "records": 71,
+      "bytes": 177078,
+      "sha256": "2b2efabf99799a8ab574ee5d8613dd7c58c81d60178d039576a4320143ceef0c"
+    },
+    {
+      "edition": "2024",
+      "file": "classes.json",
+      "records": 13,
+      "bytes": 623096,
+      "sha256": "378f28666f0803f850b6cb8db4b38923d6745f62a86310b8f63c08125331d217"
+    },
+    {
+      "edition": "2024",
+      "file": "feats.json",
+      "records": 205,
+      "bytes": 193187,
+      "sha256": "a53d4559b1e6cf62bd898167a1f1952c3a868dc5a8701d27b136a38f8250d3b0"
+    },
+    {
+      "edition": "2024",
+      "file": "items.json",
+      "records": 242,
+      "bytes": 91089,
+      "sha256": "314787cd39ca540f4b1b57f99991cf3cc26aa34eb7b6983ed1305ad404c6b778"
+    },
+    {
+      "edition": "2024",
+      "file": "magicitems.json",
+      "records": 462,
+      "bytes": 472481,
+      "sha256": "09eb8e1e72505c56b9ed4930a39189491af517a314a859eeb09db9798122a1f5"
+    },
+    {
+      "edition": "2024",
+      "file": "masteries.json",
+      "records": 8,
+      "bytes": 2283,
+      "sha256": "76486e8a22440c4e27839a29c77f4d35bbbe6cb888281c83d8564753c5d49a7c"
+    },
+    {
+      "edition": "2024",
+      "file": "races.json",
+      "records": 25,
+      "bytes": 68197,
+      "sha256": "3af0977b2491efd04ae75f6be605eb158416cccbcea7ae9e1277972e97cd2321"
+    },
+    {
+      "edition": "2024",
+      "file": "spells.json",
+      "records": 456,
+      "bytes": 542665,
+      "sha256": "16880ccb4c33042d445b031ee3bf3725c1120495f00d2a29f55b7b8046ec2377"
+    }
+  ],
+  "total_records": 3357
+}
